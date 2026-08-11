@@ -1,0 +1,374 @@
+{
+ "updated": "2026-08-11T05:08:57.221522+00:00",
+ "sources": [
+  {
+   "id": "openai",
+   "name": "OpenAI News",
+   "cat": "lab",
+   "site": "https://openai.com/news/",
+   "ok": true,
+   "count": 25,
+   "error": null
+  },
+  {
+   "id": "anthropic",
+   "name": "Anthropic News",
+   "cat": "lab",
+   "site": "https://www.anthropic.com/news",
+   "ok": true,
+   "count": 4,
+   "error": null
+  },
+  {
+   "id": "deepmind",
+   "name": "Google DeepMind",
+   "cat": "lab",
+   "site": "https://deepmind.google/discover/blog/",
+   "ok": true,
+   "count": 25,
+   "error": null
+  },
+  {
+   "id": "googleai",
+   "name": "Google AI Blog",
+   "cat": "lab",
+   "site": "https://blog.google/technology/ai/",
+   "ok": true,
+   "count": 20,
+   "error": null
+  },
+  {
+   "id": "msai",
+   "name": "Microsoft AI",
+   "cat": "lab",
+   "site": "https://news.microsoft.com/source/topics/ai/",
+   "ok": true,
+   "count": 10,
+   "error": null
+  },
+  {
+   "id": "msresearch",
+   "name": "Microsoft Research",
+   "cat": "lab",
+   "site": "https://www.microsoft.com/en-us/research/blog/",
+   "ok": true,
+   "count": 10,
+   "error": null
+  },
+  {
+   "id": "metaai",
+   "name": "Meta AI Engineering",
+   "cat": "lab",
+   "site": "https://engineering.fb.com/category/ml-applications/",
+   "ok": true,
+   "count": 9,
+   "error": null
+  },
+  {
+   "id": "nvidia",
+   "name": "NVIDIA Blog",
+   "cat": "lab",
+   "site": "https://blogs.nvidia.com/",
+   "ok": true,
+   "count": 18,
+   "error": null
+  },
+  {
+   "id": "hf",
+   "name": "Hugging Face",
+   "cat": "lab",
+   "site": "https://huggingface.co/blog",
+   "ok": true,
+   "count": 25,
+   "error": null
+  },
+  {
+   "id": "awsml",
+   "name": "AWS Machine Learning",
+   "cat": "lab",
+   "site": "https://aws.amazon.com/blogs/machine-learning/",
+   "ok": true,
+   "count": 20,
+   "error": null
+  },
+  {
+   "id": "mistral",
+   "name": "Mistral AI",
+   "cat": "lab",
+   "site": "https://mistral.ai/news",
+   "ok": true,
+   "count": 25,
+   "error": null
+  },
+  {
+   "id": "googleresearch",
+   "name": "Google Research",
+   "cat": "lab",
+   "site": "https://research.google/blog/",
+   "ok": true,
+   "count": 25,
+   "error": null
+  },
+  {
+   "id": "bair",
+   "name": "BAIR Berkeley",
+   "cat": "lab",
+   "site": "https://bair.berkeley.edu/blog/",
+   "ok": true,
+   "count": 10,
+   "error": null
+  },
+  {
+   "id": "stanfordai",
+   "name": "Stanford HAI / AI Lab",
+   "cat": "lab",
+   "site": "https://ai.stanford.edu/blog/",
+   "ok": true,
+   "count": 15,
+   "error": null
+  },
+  {
+   "id": "tc",
+   "name": "TechCrunch AI",
+   "cat": "media",
+   "site": "https://techcrunch.com/category/artificial-intelligence/",
+   "ok": true,
+   "count": 20,
+   "error": null
+  },
+  {
+   "id": "verge",
+   "name": "The Verge AI",
+   "cat": "media",
+   "site": "https://www.theverge.com/ai-artificial-intelligence",
+   "ok": true,
+   "count": 10,
+   "error": null
+  },
+  {
+   "id": "vb",
+   "name": "VentureBeat AI",
+   "cat": "media",
+   "site": "https://venturebeat.com/category/ai/",
+   "ok": true,
+   "count": 7,
+   "error": null
+  },
+  {
+   "id": "ars",
+   "name": "Ars Technica AI",
+   "cat": "media",
+   "site": "https://arstechnica.com/ai/",
+   "ok": true,
+   "count": 20,
+   "error": null
+  },
+  {
+   "id": "mittr",
+   "name": "MIT Technology Review",
+   "cat": "media",
+   "site": "https://www.technologyreview.com/topic/artificial-intelligence/",
+   "ok": true,
+   "count": 10,
+   "error": null
+  },
+  {
+   "id": "wired",
+   "name": "WIRED AI",
+   "cat": "media",
+   "site": "https://www.wired.com/tag/artificial-intelligence/",
+   "ok": true,
+   "count": 10,
+   "error": null
+  },
+  {
+   "id": "zdnet",
+   "name": "ZDNET AI",
+   "cat": "media",
+   "site": "https://www.zdnet.com/topic/artificial-intelligence/",
+   "ok": true,
+   "count": 20,
+   "error": null
+  },
+  {
+   "id": "aibusiness",
+   "name": "AI Business",
+   "cat": "media",
+   "site": "https://aibusiness.com/",
+   "ok": true,
+   "count": 25,
+   "error": null
+  },
+  {
+   "id": "theregister",
+   "name": "The Register AI",
+   "cat": "media",
+   "site": "https://www.theregister.com/software/ai_ml/",
+   "ok": true,
+   "count": 25,
+   "error": null
+  },
+  {
+   "id": "simonw",
+   "name": "Simon Willison",
+   "cat": "analysis",
+   "site": "https://simonwillison.net/",
+   "ok": true,
+   "count": 25,
+   "error": null
+  },
+  {
+   "id": "importai",
+   "name": "Import AI (Jack Clark)",
+   "cat": "analysis",
+   "site": "https://importai.substack.com/",
+   "ok": true,
+   "count": 20,
+   "error": null
+  },
+  {
+   "id": "latentspace",
+   "name": "Latent Space",
+   "cat": "analysis",
+   "site": "https://www.latent.space/",
+   "ok": true,
+   "count": 20,
+   "error": null
+  },
+  {
+   "id": "interconnects",
+   "name": "Interconnects (Nathan Lambert)",
+   "cat": "analysis",
+   "site": "https://www.interconnects.ai/",
+   "ok": true,
+   "count": 20,
+   "error": null
+  },
+  {
+   "id": "semianalysis",
+   "name": "SemiAnalysis",
+   "cat": "analysis",
+   "site": "https://semianalysis.com/",
+   "ok": true,
+   "count": 10,
+   "error": null
+  },
+  {
+   "id": "arxiv",
+   "name": "arXiv cs.AI",
+   "cat": "analysis",
+   "site": "https://arxiv.org/list/cs.AI/recent",
+   "ok": true,
+   "count": 6,
+   "error": null
+  },
+  {
+   "id": "arxivlg",
+   "name": "arXiv cs.LG",
+   "cat": "analysis",
+   "site": "https://arxiv.org/list/cs.LG/recent",
+   "ok": true,
+   "count": 6,
+   "error": null
+  },
+  {
+   "id": "habr",
+   "name": "Хабр: ИИ",
+   "cat": "ru",
+   "site": "https://habr.com/ru/hubs/artificial_intelligence/",
+   "ok": true,
+   "count": 25,
+   "error": null
+  },
+  {
+   "id": "habr_ml",
+   "name": "Хабр: Машинное обучение",
+   "cat": "ru",
+   "site": "https://habr.com/ru/hubs/machine_learning/",
+   "ok": true,
+   "count": 25,
+   "error": null
+  },
+  {
+   "id": "tg_ai_newz",
+   "name": "эйай ньюз",
+   "cat": "telegram",
+   "site": "https://t.me/s/ai_newz",
+   "ok": true,
+   "count": 19,
+   "error": null
+  },
+  {
+   "id": "tg_data_secrets",
+   "name": "Data Secrets",
+   "cat": "telegram",
+   "site": "https://t.me/s/data_secrets",
+   "ok": true,
+   "count": 16,
+   "error": null
+  },
+  {
+   "id": "tg_denissexy",
+   "name": "Denis Sexy IT",
+   "cat": "telegram",
+   "site": "https://t.me/s/denissexy",
+   "ok": true,
+   "count": 19,
+   "error": null
+  },
+  {
+   "id": "tg_seeallochnaya",
+   "name": "Сиолошная",
+   "cat": "telegram",
+   "site": "https://t.me/s/seeallochnaya",
+   "ok": true,
+   "count": 19,
+   "error": null
+  },
+  {
+   "id": "tg_gonzo_ml",
+   "name": "gonzo-обзоры ML",
+   "cat": "telegram",
+   "site": "https://t.me/s/gonzo_ML",
+   "ok": true,
+   "count": 7,
+   "error": null
+  },
+  {
+   "id": "tg_addmeto",
+   "name": "addmeto",
+   "cat": "telegram",
+   "site": "https://t.me/s/addmeto",
+   "ok": true,
+   "count": 20,
+   "error": null
+  },
+  {
+   "id": "tg_cgevent",
+   "name": "Метаверсище и ИИще",
+   "cat": "telegram",
+   "site": "https://t.me/s/cgevent",
+   "ok": true,
+   "count": 12,
+   "error": null
+  },
+  {
+   "id": "tg_tsingular",
+   "name": "Технологический Суверенитет",
+   "cat": "telegram",
+   "site": "https://t.me/s/tsingular",
+   "ok": true,
+   "count": 17,
+   "error": null
+  },
+  {
+   "id": "tg_nn_for_science",
+   "name": "AI для Всех",
+   "cat": "telegram",
+   "site": "https://t.me/s/nn_for_science",
+   "ok": true,
+   "count": 18,
+   "error": null
+  }
+ ]
+}
