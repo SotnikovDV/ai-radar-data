@@ -1,6 +1,6 @@
 {
- "updated": "2026-08-11T05:08:57.221522+00:00",
- "updated_msk": "11.08.2026 08:08",
+ "updated": "2026-08-11T05:21:03.469999+00:00",
+ "updated_msk": "11.08.2026 08:21",
  "categories": {
   "lab": "Блоги AI-лабораторий",
   "media": "Тематические СМИ",
@@ -10,8 +10,20 @@
  },
  "sources_total": 41,
  "sources_ok": 41,
- "new_count": 399,
+ "new_count": 1,
  "items": [
+  {
+   "title": "[AINews] Muse Glimmer and Spark: Open Weights return Personal Superintelligence promise",
+   "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open",
+   "summary": "a small win for american open models - Glimmer runs on a fits on a single RTX 3090!",
+   "published": "2026-08-11T05:16:41+00:00",
+   "has_date": true,
+   "source": "Latent Space",
+   "source_id": "latentspace",
+   "cat": "analysis",
+   "id": "8db30b5e91e1f45f",
+   "first_seen": "2026-08-11T05:21:03.469631+00:00"
+  },
   {
    "title": "Towards an Argumentative Foundation for Evaluative AI",
    "url": "https://arxiv.org/abs/2608.07473",
