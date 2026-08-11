@@ -1,15 +1,15 @@
 {
- "updated": "2026-08-11T17:19:32.707385Z",
+ "updated": "2026-08-11T17:26:39.047928Z",
  "issues": [
   {
    "date": "2026-08-11",
-   "intro": "Главные события дня в ИИ вращаются вокруг двух тем: ускорения локальных и агентных моделей и ужесточения контроля за их использованием и происхождением контента. Параллельно крупные игроки показывают прикладные сценарии в медицине, безопасности и креативных индустриях, где ИИ уже выходит за рамки демонстраций и становится рабочим инструментом.",
+   "intro": "Главная тема дня — ускорение локального и агентного ИИ: от новых открытых моделей, которые можно запускать на потребительском железе, до усиления внимания к безопасности и прозрачности генеративных систем. Параллельно крупные игроки двигают ИИ в медицину, анимированный контент и пользовательские продукты, где вопрос доверия к результатам становится не менее важным, чем качество самих моделей.",
    "stories": [
     {
-     "title": "Meta показала Muse Glimmer 30B для локальных агентов",
-     "summary": "Meta выпустила Muse Glimmer 30B — открытую мультимодальную модель, ориентированную на локальных ИИ-агентов и многошаговые задачи на ПК и Mac. В подборке также отмечается, что релиз хорошо совпадает с интересом рынка к локальному запуску моделей и агентным сценариям.",
-     "why": "Это важный сигнал, что локальный ИИ перестает быть нишей и становится серьезной альтернативой облачным ассистентам. Для аудитории AI Radar это означает рост спроса на модели, которые можно запускать на собственном железе и использовать без постоянной зависимости от API.",
-     "source": "Хабр: ИИ",
+     "title": "Meta вывела на рынок Muse Glimmer 30B для локальных агентов",
+     "summary": "Meta выпустила Muse Glimmer 30B — открытую 30-миллиардную мультимодальную модель, заточенную под локальные агентные сценарии и работу на потребительском железе. В подборке отдельно отмечается, что модель можно запускать даже на MacBook Air, а материалы по релизу акцентируют поддержку квантования и локального инференса.",
+     "why": "Это важный сигнал для всей экосистемы: локальные модели становятся реально применимыми не только в лабораториях, но и на обычных устройствах. Для разработчиков это снижает зависимость от облачных API, а для рынка — усиливает конкуренцию в сегменте агентного ИИ.",
+     "source": "Хабр: Машинное обучение",
      "url": "https://habr.com/ru/articles/1069422/?utm_campaign=1069422&utm_source=habrahabr&utm_medium=rss",
      "tag": "открытые модели",
      "extra": [
@@ -18,20 +18,42 @@
        "url": "https://www.latent.space/p/ainews-muse-glimmer-and-spark-open"
       },
       {
-       "name": "3DNews",
-       "url": "https://3dnews.ru/1146564/meta-vipustila-otkrituyu-iimodel-muse-glimmer-dlya-zapuska-pryamo-na-pk"
+       "name": "Notebookcheck",
+       "url": "https://www.notebookcheck.net/Meta-Muse-Glimmer-runs-offline-on-one-GPU-but-needs-24-GB-VRAM.1365512.0.html"
       },
       {
-       "name": "Habr: ИИ",
-       "url": "https://habr.com/ru/articles/1069422/?utm_campaign=1069422&utm_source=habrahabr&utm_medium=rss"
+       "name": "Hugging Face",
+       "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd"
       }
      ]
     },
     {
-     "title": "Новая атака раскрывает внутренние рассуждения LLM и секреты в коде",
-     "summary": "Исследователи показали, что внутренние reasoning traces закрытых моделей можно извлекать с помощью другой ИИ-системы, не атакуя саму модель напрямую. В материале говорится, что метод применили к API Anthropic, OpenAI и Google, а также нашли в публичных репозиториях десятки API-ключей, паролей и токенов.",
-     "why": "Это прямой удар по представлению о «закрытости» внутренних цепочек рассуждений моделей и по безопасности промптов. Для индустрии это усиливает приоритеты в области защиты API, секретов в коде и устойчивости LLM-сервисов к утечкам.",
-     "source": "Хабр: ИИ",
+     "title": "Anthropic начинает маркировать контент Claude невидимыми вотермарками",
+     "summary": "Anthropic объявила, что будет встраивать в текст и изображения, сгенерированные Claude, невидимые машинно-читаемые водяные знаки и метаданные происхождения. Мера связана с требованиями европейского AI Act и распространяется не только на новые модели, но и на часть старых релизов после переходного периода.",
+     "why": "Это один из самых заметных шагов в сторону обязательной прозрачности генеративного ИИ. Для аудитории AI Radar важно, потому что такие механизмы могут стать отраслевым стандартом и повлиять на то, как проверяют происхождение текстов, изображений и документов.",
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
+     "tag": "безопасность",
+     "extra": [
+      {
+       "name": "The Verge AI",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images"
+      },
+      {
+       "name": "TechCrunch AI",
+       "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/"
+      },
+      {
+       "name": "Хабр: ИИ",
+       "url": "https://habr.com/ru/articles/1069178/?utm_campaign=1069178&utm_source=habrahabr&utm_medium=rss"
+      }
+     ]
+    },
+    {
+     "title": "Новый метод позволяет читать скрытые reasoning traces у LLM",
+     "summary": "Исследователи показали, что внутренние рассуждения закрытых LLM можно извлекать целиком, не атакуя саму модель напрямую. В ходе демонстрации метода также были извлечены секреты из публичных репозиториев: ключи API, пароли и токены доступа.",
+     "why": "Это прямой удар по идее «скрытых мыслей» как безопасного слоя между моделью и пользователем. Для ИИ-индустрии это означает новый класс угроз: утечка не только данных, но и внутренней логики модели, что критично для enterprise и API-провайдеров.",
+     "source": "Хабр: Машинное обучение",
      "url": "https://habr.com/ru/articles/1069420/?utm_campaign=1069420&utm_source=habrahabr&utm_medium=rss",
      "tag": "безопасность",
      "extra": [
@@ -40,19 +62,19 @@
        "url": "https://www.wired.com/story/a-new-trick-reveals-ai-models-inner-thoughts/"
       },
       {
-       "name": "The Verge AI",
-       "url": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack"
+       "name": "Хабр: Машинное обучение",
+       "url": "https://habr.com/ru/articles/1069420/?utm_campaign=1069420&utm_source=habrahabr&utm_medium=rss"
       },
       {
-       "name": "Habr: ИИ",
-       "url": "https://habr.com/ru/articles/1069420/?utm_campaign=1069420&utm_source=habrahabr&utm_medium=rss"
+       "name": "The Verge AI",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack"
       }
      ]
     },
     {
-     "title": "Google продвинул AMIE к экспертным аудиовизуальным клиническим консультациям",
-     "summary": "Google Research и Google AI Blog сообщили о развитии AMIE — медицинской ИИ-системы, которая демонстрирует консультации в формате аудио- и видеовзаимодействия в реальном времени. Проект позиционируется как шаг к экспертному уровню клинических консультаций.",
-     "why": "Медицина остается одной из самых чувствительных и ценных областей применения ИИ, где успехи быстро влияют на ожидания от clinical VLMs. Для читателей это важный индикатор того, насколько далеко ИИ продвинулся от текстовых помощников к специализированным инструментам для врачей.",
+     "title": "Google продвигает AMIE к экспертным клиническим консультациям",
+     "summary": "Google Research представила обновление AMIE — исследовательской медицинской ИИ-системы, которая делает шаг к экспертному уровню аудиовизуальных клинических консультаций. Отдельно показано, что система умеет работать с видео в реальном времени, что приближает ИИ-медицину к более естественному формату общения с пациентом.",
+     "why": "Медицинский ИИ быстро выходит за рамки текстовых подсказок и переходит к мультимодальным сценариям с реальным клиническим применением. Это важно как для разработчиков моделей, так и для рынка healthtech, где качество взаимодействия и проверяемость решений особенно критичны.",
      "source": "Google Research",
      "url": "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/",
      "tag": "медицина",
@@ -62,54 +84,40 @@
        "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/"
       },
       {
-       "name": "Google Research",
-       "url": "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/"
+       "name": "AWS Machine Learning",
+       "url": "https://aws.amazon.com/blogs/machine-learning/how-onestruction-built-the-ishigaki-ids-foundation-model-with-aws-genaiic/"
+      },
+      {
+       "name": "Microsoft Research",
+       "url": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/"
       }
      ]
     },
     {
-     "title": "Anthropic начнет маркировать сгенерированный Claude контент",
-     "summary": "Anthropic объявила, что будет добавлять невидимые водяные знаки и цифровые метаданные к текстам и изображениям, сгенерированным Claude. Это связано с требованиями европейского AI Act и кодекса прозрачности ИИ-контента.",
-     "why": "Маркировка ИИ-контента быстро превращается в отраслевой стандарт и может повлиять на то, как компании публикуют и проверяют генерации. Для аудитории AI Radar это важный маркер регуляторного давления на модели и на весь рынок генеративного контента.",
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
-     "tag": "прозрачность",
+     "title": "OpenAI тестирует рекламу в ChatGPT",
+     "summary": "OpenAI начала тестировать рекламу в ChatGPT, сохраняя пометки об объявлениях, независимость ответов и пользовательский контроль. Это первый заметный сигнал о том, как бесплатный доступ к генеративному ИИ могут начать монетизировать на уровне самого интерфейса чата.",
+     "why": "Если эксперимент окажется успешным, это может изменить экономику потребительских ИИ-сервисов. Для аудитории AI Radar это важно как индикатор того, куда движется рынок: от гонки моделей к гонке бизнес-моделей и удержания массовой аудитории.",
+     "source": "OpenAI News",
+     "url": "https://openai.com/index/testing-ads-in-chatgpt",
+     "tag": "продукт",
      "extra": [
+      {
+       "name": "OpenAI News",
+       "url": "https://openai.com/index/testing-ads-in-chatgpt"
+      },
+      {
+       "name": "The Verge AI",
+       "url": "https://www.theverge.com/tech/977733/amazon-order-emails-google-gmail-ai-agents-data"
+      },
       {
        "name": "TechCrunch AI",
-       "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/"
-      },
-      {
-       "name": "The Verge AI",
-       "url": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images"
-      },
-      {
-       "name": "Хабр: ИИ",
-       "url": "https://habr.com/ru/articles/1069178/?utm_campaign=1069178&utm_source=habrahabr&utm_medium=rss"
-      }
-     ]
-    },
-    {
-     "title": "Claude продвинулся в одной из самых сложных задач математики",
-     "summary": "Неопубликованная исследовательская версия Claude, по данным подборки, помогла существенно улучшить оценку, связанную с гипотезой Римана, и координировала десятки субагентов для поиска математического результата. В одном из материалов это подается как очередной шаг к тому, что ИИ становится реальным инструментом математических исследований.",
-     "why": "Даже без полного доказательства такой результат важен: он показывает, что frontier-модели уже способны вносить вклад в фундаментальные научные задачи. Для ИИ-сообщества это еще одно подтверждение смещения фокуса от генерации текста к научному и агентному мышлению.",
-     "source": "Data Secrets",
-     "url": "https://t.me/data_secrets/9690",
-     "tag": "исследования",
-     "extra": [
-      {
-       "name": "The Verge AI",
-       "url": "https://www.theverge.com/ai-artificial-intelligence/977273/the-ai-takeover-of-mathematics-has-begun"
-      },
-      {
-       "name": "Habr: ИИ",
-       "url": "https://habr.com/ru/articles/1068914/?utm_campaign=1068914&utm_source=habrahabr&utm_medium=rss"
+       "url": "https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/"
       }
      ]
     }
    ],
-   "generated_at": "2026-08-11T17:20:26.421943Z",
-   "generated_label": "11.08.2026 20:20"
+   "generated_at": "2026-08-11T17:27:15.405373Z",
+   "generated_label": "11.08.2026 20:27"
   }
  ]
 }

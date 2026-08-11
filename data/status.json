@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-11T17:19:32.707385Z",
+ "updated": "2026-08-11T17:26:39.047928Z",
  "sources": [
   {
    "id": "openai",
@@ -249,9 +249,9 @@
    "name": "SemiAnalysis",
    "cat": "analysis",
    "site": "https://semianalysis.com/",
-   "ok": true,
+   "ok": false,
    "count": 0,
-   "error": null
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://semianalysis.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
   },
   {
    "id": "arxiv",
