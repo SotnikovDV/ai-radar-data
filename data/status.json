@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-11T16:42:47.986846Z",
+ "updated": "2026-08-11T16:57:59.289950Z",
  "sources": [
   {
    "id": "openai",
@@ -294,81 +294,81 @@
    "name": "эйай ньюз",
    "cat": "telegram",
    "site": "https://t.me/s/ai_newz",
-   "ok": false,
-   "count": 0,
-   "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://rsshub.app/telegram/channel/ai_newz'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+   "ok": true,
+   "count": 19,
+   "error": null
   },
   {
    "id": "tg_data_secrets",
    "name": "Data Secrets",
    "cat": "telegram",
    "site": "https://t.me/s/data_secrets",
-   "ok": false,
-   "count": 0,
-   "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://rsshub.app/telegram/channel/data_secrets'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+   "ok": true,
+   "count": 17,
+   "error": null
   },
   {
    "id": "tg_denissexy",
    "name": "Denis Sexy IT",
    "cat": "telegram",
    "site": "https://t.me/s/denissexy",
-   "ok": false,
-   "count": 0,
-   "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://rsshub.app/telegram/channel/denissexy'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+   "ok": true,
+   "count": 18,
+   "error": null
   },
   {
    "id": "tg_seeallochnaya",
    "name": "Сиолошная",
    "cat": "telegram",
    "site": "https://t.me/s/seeallochnaya",
-   "ok": false,
-   "count": 0,
-   "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://rsshub.app/telegram/channel/seeallochnaya'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+   "ok": true,
+   "count": 20,
+   "error": null
   },
   {
    "id": "tg_gonzo_ml",
    "name": "gonzo-обзоры ML",
    "cat": "telegram",
    "site": "https://t.me/s/gonzo_ML",
-   "ok": false,
-   "count": 0,
-   "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://rsshub.app/telegram/channel/gonzo_ML'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+   "ok": true,
+   "count": 20,
+   "error": null
   },
   {
    "id": "tg_addmeto",
    "name": "addmeto",
    "cat": "telegram",
    "site": "https://t.me/s/addmeto",
-   "ok": false,
+   "ok": true,
    "count": 0,
-   "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://rsshub.app/telegram/channel/addmeto'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+   "error": null
   },
   {
    "id": "tg_cgevent",
    "name": "Метаверсище и ИИще",
    "cat": "telegram",
    "site": "https://t.me/s/cgevent",
-   "ok": false,
-   "count": 0,
-   "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://rsshub.app/telegram/channel/cgevent'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+   "ok": true,
+   "count": 13,
+   "error": null
   },
   {
    "id": "tg_tsingular",
    "name": "Технологический Суверенитет",
    "cat": "telegram",
    "site": "https://t.me/s/tsingular",
-   "ok": false,
-   "count": 0,
-   "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://rsshub.app/telegram/channel/tsingular'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+   "ok": true,
+   "count": 18,
+   "error": null
   },
   {
    "id": "tg_nn_for_science",
    "name": "AI для Всех",
    "cat": "telegram",
    "site": "https://t.me/s/nn_for_science",
-   "ok": false,
-   "count": 0,
-   "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://rsshub.app/telegram/channel/nn_for_science'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+   "ok": true,
+   "count": 18,
+   "error": null
   }
  ]
 }

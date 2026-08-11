@@ -1,52 +1,34 @@
 {
- "updated": "2026-08-11T16:42:47.986846Z",
+ "updated": "2026-08-11T16:57:59.289950Z",
  "issues": [
   {
    "date": "2026-08-11",
-   "intro": "Главная тема дня — ускорение прикладного и исследовательского ИИ сразу в нескольких направлениях: от прорывов в математике и прозрачности контента до агентных сценариев, которые уже переходят в корпоративную и продуктовую практику. Одновременно заметен и второй тренд: компании все чаще встраивают ИИ в инфраструктуру, безопасность и рабочие процессы, а не только в чатботы и генерацию контента.",
+   "intro": "За сутки в ИИ-новостях доминировали три темы: прозрачность и маркировка AI-контента, заметный прогресс ИИ в математике и новые практические внедрения агентных и отраслевых моделей. Отдельно выделяются новости о безопасности и о том, как ИИ всё глубже встраивается в продукты крупных платформ и корпоративные workflow.",
    "stories": [
     {
-     "title": "Claude сделал заметный шаг в задаче, связанной с гипотезой Римана",
-     "summary": "Anthropic рассказала, что неназванная исследовательская версия Claude не решила гипотезу Римана, но смогла продвинуться в смежной задаче и повысила нижнюю оценку доли нулей дзета-функции, удовлетворяющих гипотезе, с 41,6% до 67,2%. По данным Anthropic, модель работала в несколько сессий, координировала десятки подагентов и создала проверяемое доказательство результата.",
-     "why": "Это один из самых заметных сигналов, что ИИ уже может приносить реальный исследовательский вклад в математике, а не только генерировать текст. Для аудитории AI Radar это важный маркер того, как быстро растут способности моделей к поиску новых научных результатов.",
+     "title": "Модель Anthropic неожиданно продвинула гипотезу Римана",
+     "summary": "Неопубликованная модель Anthropic продвинула исследование гипотезы Римана дальше, чем ожидалось: она не решила задачу, но заметно улучшила результат по доле нулей дзета-функции на критической прямой. Параллельно в отрасли продолжаются разговоры о том, что ИИ уже меняет саму практику математических исследований.",
+     "why": "Для аудитории ИИ это сигнал, что frontier-модели начинают приносить измеримые результаты не только в кодинге, но и в фундаментальной науке. Если такие результаты будут воспроизводиться, это усилит интерес к ИИ как инструменту для research-driven задач.",
      "source": "TechCrunch AI",
      "url": "https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/",
-     "tag": "модели",
+     "tag": "наука",
      "extra": [
       {
-       "name": "Anthropic",
-       "url": "https://www.anthropic.com/research/riemann-zeta"
+       "name": "TechCrunch AI",
+       "url": "https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/"
       },
       {
-       "name": "X / Vaibhav Sisinty",
-       "url": "https://x.com/VaibhavSisinty/status/2087032370058899854"
+       "name": "WIRED AI",
+       "url": "https://www.wired.com/story/a-new-trick-reveals-ai-models-inner-thoughts/"
       }
      ]
     },
     {
-     "title": "Apple тестирует способ подтверждать происхождение iPhone-фото",
-     "summary": "Apple, судя по коду в iOS 27 beta 5, готовит механизм \"Apple Reference Image\", который сможет встраивать метаданные о происхождении прямо в снимок в момент создания. Идея в том, чтобы пользователь мог доказать, что фото действительно было сделано iPhone, а не сгенерировано или подделано.",
-     "why": "Прозрачность происхождения медиа становится критически важной на фоне роста дипфейков и генеративной графики. Если функция дойдет до релиза, это может стать важным шагом к массовой проверке подлинности изображений на уровне платформы и устройства.",
+     "title": "Anthropic начнёт маркировать тексты и изображения Claude",
+     "summary": "Anthropic объявила, что будет встраивать невидимые водяные знаки и метаданные provenance в текст и изображения, сгенерированные Claude. По сообщениям, это связано с требованиями европейского регулирования прозрачности ИИ-контента и может затронуть как новые, так и более старые модели.",
+     "why": "Это важный шаг в сторону проверяемого происхождения AI-контента, который напрямую затрагивает издателей, платформы и корпоративных пользователей. Для рынка это также прецедент: прозрачность генерации становится не опцией, а частью инфраструктуры.",
      "source": "The Verge AI",
-     "url": "https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata",
-     "tag": "прозрачность",
-     "extra": [
-      {
-       "name": "9to5Mac",
-       "url": "https://9to5mac.com/"
-      },
-      {
-       "name": "The Verge AI",
-       "url": "https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata"
-      }
-     ]
-    },
-    {
-     "title": "Anthropic введет невидимые водяные знаки для контента Claude",
-     "summary": "Anthropic объявила, что начнет помечать текст и изображения, созданные Claude, невидимыми водяными знаками и метаданными происхождения там, где это поддерживается. Компания связывает это с требованиями европейского регулирования по прозрачности ИИ-контента.",
-     "why": "Это сильный сигнал для рынка: маркировка ИИ-контента становится не экспериментом, а частью комплаенса и продуктовой стратегии. Для медиа, платформ и корпоративных пользователей это означает ускорение перехода к provenance-стандартам и проверяемому происхождению контента.",
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images",
      "tag": "безопасность",
      "extra": [
       {
@@ -54,54 +36,68 @@
        "url": "https://www.theverge.com/ai-artificial-intelligence/977823/anthropic-claude-ai-watermarks-c2pa-text-images"
       },
       {
-       "name": "TechCrunch AI",
-       "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/"
+       "name": "Data Secrets",
+       "url": "https://t.me/data_secrets/9691"
       }
      ]
     },
     {
-     "title": "AWS показывает, как ИИ уже встроен в продуктовые и корпоративные процессы",
-     "summary": "AWS опубликовала сразу несколько кейсов о внедрении ИИ в продакшн: Pixieset добилась 35% adoption AI-функции, First Orion перевела QA на Amazon Nova Act, а отдельный пост описывает gateway для Claude apps в enterprise-среде. Во всех случаях акцент сделан на практической интеграции ИИ в реальные рабочие процессы, а не на демонстрационных сценариях.",
-     "why": "Это полезный индикатор того, какие сценарии ИИ действительно масштабируются в бизнесе: узкие задачи, понятная отдача и снижение ручной рутины. Для читателей важно видеть, как генеративный ИИ переходит от пилотов к измеримым метрикам в проде.",
+     "title": "ИИ помог найти критическую уязвимость в Zoom",
+     "summary": "Исследователи сообщили о критической уязвимости Zoom, которую удалось найти менее чем за 20 промптов в публичных AI-моделях. Дефект позволял захватить устройство участника встречи через функцию аннотаций, и Zoom уже выпустил исправление.",
+     "why": "Это показательный пример того, как генеративные модели становятся инструментом security research и red teaming. Для индустрии это напоминание, что AI ускоряет не только разработку, но и поиск атакующих цепочек.",
+     "source": "WIRED AI",
+     "url": "https://www.wired.com/story/a-zoom-screen-sharing-bug-let-anyone-take-over-other-devices-on-a-call/",
+     "tag": "безопасность",
+     "extra": [
+      {
+       "name": "WIRED AI",
+       "url": "https://www.wired.com/story/a-zoom-screen-sharing-bug-let-anyone-take-over-other-devices-on-a-call/"
+      },
+      {
+       "name": "The Verge AI",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/977909/zoom-vulnerability-ai-attack"
+      }
+     ]
+    },
+    {
+     "title": "AWS показала, как собрать доменную foundation-модель для строительства",
+     "summary": "ONESTRUCTION вместе с AWS GenAIIC построили Ishigaki-IDS — foundation model для строительства и BIM-процессов. Кейс подчёркивает роль synthetic data, трёхэтапного обучения и доменной специализации в условиях дефицита данных.",
+     "why": "Это хороший ориентир для компаний, которые хотят делать не универсальный, а прикладной ИИ под свою отрасль. История особенно важна, потому что показывает рабочую схему для data-scarce domain'ов.",
      "source": "AWS Machine Learning",
-     "url": "https://aws.amazon.com/blogs/machine-learning/how-pixieset-achieved-35-ai-feature-adoption-by-solving-the-right-problem-with-amazon-bedrock/",
-     "tag": "агенты",
+     "url": "https://aws.amazon.com/blogs/machine-learning/how-onestruction-built-the-ishigaki-ids-foundation-model-with-aws-genaiic/",
+     "tag": "модели",
      "extra": [
       {
        "name": "AWS Machine Learning",
-       "url": "https://aws.amazon.com/blogs/machine-learning/how-pixieset-achieved-35-ai-feature-adoption-by-solving-the-right-problem-with-amazon-bedrock/"
+       "url": "https://aws.amazon.com/blogs/machine-learning/how-onestruction-built-the-ishigaki-ids-foundation-model-with-aws-genaiic/"
       },
-      {
-       "name": "AWS Machine Learning",
-       "url": "https://aws.amazon.com/blogs/machine-learning/first-orion-accelerates-qa-automation-using-amazon-nova-act/"
-      },
-      {
-       "name": "AWS Machine Learning",
-       "url": "https://aws.amazon.com/blogs/machine-learning/deploying-anthropic-claude-apps-gateway-for-aws-for-enterprise-workloads/"
-      }
-     ]
-    },
-    {
-     "title": "Microsoft Research развивает клинически полезные радиологические VLM",
-     "summary": "Microsoft Research представила CARE-X — подход к радиологическим VLM, который объединяет рассуждение, калиброванные предсказания и инструменты измерения для интерпретации рентгеновских снимков грудной клетки. Авторы подчеркивают, что задача уже выходит за рамки генерации отчетов и движется к клинически полезным системам.",
-     "why": "Медицинский ИИ особенно важен, потому что здесь ценность определяется не вау-эффектом, а точностью, объяснимостью и встроенными инструментами контроля. Такие работы показывают, куда движется следующий этап прикладного ИИ — к специализированным системам с реальной клинической пользой.",
-     "source": "Microsoft Research",
-     "url": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/",
-     "tag": "медицина",
-     "extra": [
       {
        "name": "Microsoft Research",
        "url": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/"
+      }
+     ]
+    },
+    {
+     "title": "Apple готовит проверку происхождения iPhone-фото",
+     "summary": "Apple, судя по коду в iOS 27 beta 5, разрабатывает механизм, который сможет подтверждать момент съёмки iPhone-фотографий через provenance-метаданные. На фоне роста дипфейков это может дать пользователям и платформам более надёжный способ доказывать происхождение изображения.",
+     "why": "Для медиарынка и соцплатформ это потенциально один из самых практичных инструментов борьбы с поддельными изображениями. Если Apple доведёт функцию до релиза, она может стать массовым стандартом верификации контента на устройстве.",
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata",
+     "tag": "продукт",
+     "extra": [
+      {
+       "name": "The Verge AI",
+       "url": "https://www.theverge.com/tech/977921/apple-reference-image-iphone-metadata"
       },
       {
-       "name": "WIRED AI",
-       "url": "https://www.wired.com/story/ai-helping-solve-intricate-genetic-puzzle-schizophrenia/"
+       "name": "TechCrunch AI",
+       "url": "https://techcrunch.com/2026/08/11/spotify-will-label-ai-persona-profiles-and-exclude-their-music-from-recommendations/"
       }
      ]
     }
    ],
-   "generated_at": "2026-08-11T16:43:17.097530Z",
-   "generated_label": "11.08.2026 19:43"
+   "generated_at": "2026-08-11T16:58:28.216636Z",
+   "generated_label": "11.08.2026 19:58"
   }
  ]
 }
