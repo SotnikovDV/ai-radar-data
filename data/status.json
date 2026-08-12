@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-12T10:36:08.441982Z",
+ "updated": "2026-08-12T10:43:50.751953Z",
  "sources": [
   {
    "id": "openai",
@@ -294,99 +294,99 @@
    "name": "эйай ньюз",
    "cat": "telegram",
    "site": "https://t.me/s/ai_newz",
-   "ok": false,
-   "count": 0,
-   "error": "ConnectError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение"
+   "ok": true,
+   "count": 19,
+   "error": null
   },
   {
    "id": "tg_data_secrets",
    "name": "Data Secrets",
    "cat": "telegram",
    "site": "https://t.me/s/data_secrets",
-   "ok": false,
-   "count": 0,
-   "error": "ConnectError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение"
+   "ok": true,
+   "count": 17,
+   "error": null
   },
   {
    "id": "tg_denissexy",
    "name": "Denis Sexy IT",
    "cat": "telegram",
    "site": "https://t.me/s/denissexy",
-   "ok": false,
-   "count": 0,
-   "error": "ConnectError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение"
+   "ok": true,
+   "count": 18,
+   "error": null
   },
   {
    "id": "tg_seeallochnaya",
    "name": "Сиолошная",
    "cat": "telegram",
    "site": "https://t.me/s/seeallochnaya",
-   "ok": false,
-   "count": 0,
-   "error": "ConnectError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение"
+   "ok": true,
+   "count": 20,
+   "error": null
   },
   {
    "id": "tg_gonzo_ml",
    "name": "gonzo-обзоры ML",
    "cat": "telegram",
    "site": "https://t.me/s/gonzo_ML",
-   "ok": false,
-   "count": 0,
-   "error": "ConnectError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение"
+   "ok": true,
+   "count": 20,
+   "error": null
   },
   {
    "id": "tg_addmeto",
    "name": "addmeto",
    "cat": "telegram",
    "site": "https://t.me/s/addmeto",
-   "ok": false,
+   "ok": true,
    "count": 0,
-   "error": "ConnectError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение"
+   "error": null
   },
   {
    "id": "tg_cgevent",
    "name": "Метаверсище и ИИще",
    "cat": "telegram",
    "site": "https://t.me/s/cgevent",
-   "ok": false,
-   "count": 0,
-   "error": "ConnectError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение"
+   "ok": true,
+   "count": 14,
+   "error": null
   },
   {
    "id": "tg_tsingular",
    "name": "Технологический Суверенитет",
    "cat": "telegram",
    "site": "https://t.me/s/tsingular",
-   "ok": false,
-   "count": 0,
-   "error": "ConnectError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение"
+   "ok": true,
+   "count": 18,
+   "error": null
   },
   {
    "id": "tg_nn_for_science",
    "name": "AI для Всех",
    "cat": "telegram",
    "site": "https://t.me/s/nn_for_science",
-   "ok": false,
-   "count": 0,
-   "error": "ConnectError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение"
+   "ok": true,
+   "count": 18,
+   "error": null
   },
   {
    "id": "tg_aimanualru",
    "name": "AiManual — база знаний по ИИ",
    "cat": "telegram",
    "site": "https://ai-manual.ru/articles/",
-   "ok": false,
-   "count": 0,
-   "error": "ConnectError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение"
+   "ok": true,
+   "count": 20,
+   "error": null
   },
   {
    "id": "tg_chatai",
    "name": "Chat AI",
    "cat": "telegram",
    "site": "https://chataibot.ru/blog/chatai/",
-   "ok": false,
-   "count": 0,
-   "error": "ConnectError: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение"
+   "ok": true,
+   "count": 4,
+   "error": null
   }
  ]
 }
