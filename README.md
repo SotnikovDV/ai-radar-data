@@ -1,6 +1,6 @@
 # AI Radar — данные
 
-JSON-данные для дашборда https://airadar.pplx.app
+JSON-данные для дашборда https://airadar.sotnikovdv.ru
 
 - `data/items.json` — заголовки и ссылки за 14 дней
 - `data/digest.json` — выпуски дайджеста
