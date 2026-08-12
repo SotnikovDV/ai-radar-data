@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-12T04:40:04.289601Z",
+ "updated": "2026-08-12T04:42:54.857917Z",
  "sources": [
   {
    "id": "openai",
@@ -368,6 +368,15 @@
    "site": "https://t.me/s/nn_for_science",
    "ok": true,
    "count": 18,
+   "error": null
+  },
+  {
+   "id": "tg_aimanualru",
+   "name": "AiManual — база знаний по ИИ",
+   "cat": "telegram",
+   "site": "https://t.me/s/aimanualru",
+   "ok": true,
+   "count": 20,
    "error": null
   }
  ]
