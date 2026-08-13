@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-12T10:43:50.751953Z",
+ "updated": "2026-08-13T04:40:04.056356Z",
  "sources": [
   {
    "id": "openai",
@@ -7,7 +7,7 @@
    "cat": "lab",
    "site": "https://openai.com/news/",
    "ok": true,
-   "count": 51,
+   "count": 53,
    "error": null
   },
   {
@@ -25,7 +25,7 @@
    "cat": "lab",
    "site": "https://deepmind.google/discover/blog/",
    "ok": true,
-   "count": 9,
+   "count": 10,
    "error": null
   },
   {
@@ -52,7 +52,7 @@
    "cat": "lab",
    "site": "https://www.microsoft.com/en-us/research/blog/",
    "ok": true,
-   "count": 5,
+   "count": 6,
    "error": null
   },
   {
@@ -60,9 +60,9 @@
    "name": "Meta AI Engineering",
    "cat": "lab",
    "site": "https://engineering.fb.com/category/ml-applications/",
-   "ok": false,
-   "count": 0,
-   "error": "ConnectTimeout: _ssl.c:993: The handshake operation timed out"
+   "ok": true,
+   "count": 3,
+   "error": null
   },
   {
    "id": "nvidia",
@@ -106,7 +106,7 @@
    "cat": "lab",
    "site": "https://research.google/blog/",
    "ok": true,
-   "count": 5,
+   "count": 6,
    "error": null
   },
   {
@@ -160,7 +160,7 @@
    "cat": "media",
    "site": "https://arstechnica.com/ai/",
    "ok": true,
-   "count": 18,
+   "count": 19,
    "error": null
   },
   {
@@ -259,7 +259,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.AI/recent",
    "ok": true,
-   "count": 344,
+   "count": 306,
    "error": null
   },
   {
@@ -268,7 +268,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.LG/recent",
    "ok": true,
-   "count": 295,
+   "count": 261,
    "error": null
   },
   {
@@ -304,7 +304,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/data_secrets",
    "ok": true,
-   "count": 17,
+   "count": 18,
    "error": null
   },
   {
@@ -313,7 +313,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/denissexy",
    "ok": true,
-   "count": 18,
+   "count": 19,
    "error": null
   },
   {
@@ -349,7 +349,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/cgevent",
    "ok": true,
-   "count": 14,
+   "count": 20,
    "error": null
   },
   {
@@ -358,7 +358,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/tsingular",
    "ok": true,
-   "count": 18,
+   "count": 17,
    "error": null
   },
   {
