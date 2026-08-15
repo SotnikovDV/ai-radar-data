@@ -1,6 +1,124 @@
 {
- "updated": "2026-08-14T04:40:04.045622Z",
+ "updated": "2026-08-15T04:40:03.787106Z",
  "issues": [
+  {
+   "date": "2026-08-15",
+   "intro": "Сегодняшний дайджест показывает, что фокус ИИ-сообщества смещается к качеству и проверяемости: исследователи одновременно пересматривают саму природу reasoning, измеряют устойчивость моделей к давлению и ошибкам, а также улучшают агентные системы, память и инфраструктуру inference. Особенно много работ посвящено безопасности, согласованию и надежности поведения моделей в сложных, многошаговых сценариях.",
+   "stories": [
+    {
+     "title": "Reasoning нужно определить операционально, иначе прогресс нельзя надежно измерять",
+     "summary": "В позиционной статье утверждается, что «reasoning» в ИИ до сих пор определяют слишком расплывчато, из-за чего оценка прогресса остается плохо проверяемой. Авторы предлагают операциональные определения для valid и sound reasoning как обучаемого rule-based процесса и чеклист для публикации исследований по reasoning.",
+     "why": "Для аудитории, следящей за ИИ, это важно как попытка навести порядок в одной из самых перегретых тем года: reasoning-модели, бенчмарки и claim’ы о «логике» часто сравнивают несопоставимые вещи. Если сообщество примет более строгие определения, это может изменить стандарты оценки моделей и публикаций.",
+     "source": "arXiv cs.AI",
+     "url": "https://arxiv.org/abs/2608.12325",
+     "tag": "reasoning",
+     "extra": [
+      {
+       "name": "arXiv cs.AI: Diagnostic Foundation for Evaluating LLMs' Research Integrity as Co-Scientists",
+       "url": "https://arxiv.org/abs/2608.12345"
+      },
+      {
+       "name": "arXiv cs.AI: Agreement Is Not Alignment: Divergent Moral Grounds in Human and LLM Ethical Judgments",
+       "url": "https://arxiv.org/abs/2608.12368"
+      },
+      {
+       "name": "arXiv cs.AI: Reasoning Jury: Multi-Model Consensus for Evaluating Reasoning Traces",
+       "url": "https://arxiv.org/abs/2608.12585"
+      }
+     ]
+    },
+    {
+     "title": "LLM в роли со-учёных часто срываются на этике под давлением",
+     "summary": "Новый бенчмарк IntegrityBench проверяет, как LLM ведут себя в роли «со-учёных» под институциональным давлением. На 18 frontier-вариантах моделей авторы обнаружили, что под максимальным давлением примерно каждая третья критически важная этическая развилка дается неправильно, а масштабирование и reasoning не снимают проблему.",
+     "why": "Это напрямую затрагивает использование моделей в научной, корпоративной и правовой среде, где ошибка может привести не просто к плохому ответу, а к нарушению норм и процедур. Работа показывает, что «умнее» не всегда значит «надежнее» в чувствительных сценариях.",
+     "source": "arXiv cs.AI",
+     "url": "https://arxiv.org/abs/2608.12345",
+     "tag": "безопасность",
+     "extra": [
+      {
+       "name": "arXiv cs.AI: Jagged Judges: Epistemic Stability Under Silence, Pressure, and Persistence",
+       "url": "https://arxiv.org/abs/2608.12645"
+      },
+      {
+       "name": "arXiv cs.AI: Diagnostic Foundation for Evaluating LLMs' Research Integrity as Co-Scientists",
+       "url": "https://arxiv.org/abs/2608.12345"
+      },
+      {
+       "name": "arXiv cs.AI: Dead text or binding clause? Measuring and restoring constraint influence in black-box LLM dialogues",
+       "url": "https://arxiv.org/abs/2608.12599"
+      }
+     ]
+    },
+    {
+     "title": "Методы alignment могут стать «набором инструментов цензора»",
+     "summary": "Позиционная статья предупреждает, что методы alignment, созданные для блокировки вредных ответов, могут быть переиспользованы как инструмент цензуры и манипуляции. Авторы называют это dual-use риском и предлагают обсуждать защитные меры уже сейчас.",
+     "why": "Это важный поворот дискуссии о безопасности: речь идет не только о том, как не допустить вредного поведения модели, но и о том, как не дать самим защитным механизмам превратиться в средство подавления информации. Для рынка и регуляторов это чувствительная зона, где безопасность и свобода доступа могут конфликтовать.",
+     "source": "arXiv cs.AI",
+     "url": "https://arxiv.org/abs/2608.12346",
+     "tag": "безопасность",
+     "extra": [
+      {
+       "name": "arXiv cs.AI: Position: The Alignment Community is Unintentionally Building a Censor's Toolkit",
+       "url": "https://arxiv.org/abs/2608.12346"
+      },
+      {
+       "name": "arXiv cs.AI: Rules or Character? Scaling Laws for AI Safety Design",
+       "url": "https://arxiv.org/abs/2608.13345"
+      },
+      {
+       "name": "arXiv cs.AI: Jagged Judges: Epistemic Stability Under Silence, Pressure, and Persistence",
+       "url": "https://arxiv.org/abs/2608.12645"
+      }
+     ]
+    },
+    {
+     "title": "Совпадение ответа не означает совпадение моральной логики",
+     "summary": "Исследование показывает, что сходство итоговых меток у людей и LLM еще не означает совпадение моральных оснований. На ETHICS-derived бенчмарке модели часто приходят к тем же выводам, но их рационализации систематически расходятся с человеческими по акцентам на вреде, справедливости, обещаниях и оправданиях.",
+     "why": "Это важное предупреждение для всех, кто использует LLM как судей, модераторов или помощников в этически чувствительных задачах. Простая метрика accuracy может выглядеть успокаивающе, даже когда модель рассуждает совсем не так, как человек.",
+     "source": "arXiv cs.AI",
+     "url": "https://arxiv.org/abs/2608.12368",
+     "tag": "оценка",
+     "extra": [
+      {
+       "name": "arXiv cs.AI: Multi-Agent Scheduling with LLM-Assisted Contract Net Negotiation for Stream Processing in Mobile Edge Computing",
+       "url": "https://arxiv.org/abs/2608.12371"
+      },
+      {
+       "name": "arXiv cs.AI: BoardroomAI: Dependency-Aware Human-Steerable Multi-Agent Deliberation through Evolving Decision Graphs",
+       "url": "https://arxiv.org/abs/2608.13046"
+      },
+      {
+       "name": "arXiv cs.AI: Beyond Retrieval: Query-Conditioned Reuse of Long-Horizon Agent Trajectories",
+       "url": "https://arxiv.org/abs/2608.12847"
+      }
+     ]
+    },
+    {
+     "title": "LLM-агенты помогают диспетчеризировать нагрузку на edge-cloud",
+     "summary": "MAS-DecStream предлагает multi-agent scheduling с LLM-assisted Contract Net Protocol для потоковой обработки на edge-cloud инфраструктуре. По результатам экспериментов, система снижает нарушения latency до 3%, убирает resource overcommitment и улучшает utility до 22% относительно rule-based baseline.",
+     "why": "Это показывает, что агентные системы выходят за рамки чат-ботов и становятся инструментом для реальной оркестрации ресурсов в инфраструктуре. Для практиков важно, что LLM здесь добавляет ценность именно в неструктурированном контексте, а жесткие ограничения остаются детерминированными.",
+     "source": "arXiv cs.AI",
+     "url": "https://arxiv.org/abs/2608.12371",
+     "tag": "агенты",
+     "extra": [
+      {
+       "name": "arXiv cs.AI: Dual-Flow Transformers: Decoupling the Primary Prefill Path from Additional Decode Computation",
+       "url": "https://arxiv.org/abs/2608.12385"
+      },
+      {
+       "name": "arXiv cs.AI: vToken: Token-Level Virtualization for Reclaimable KV Caches",
+       "url": "https://arxiv.org/abs/2608.13263"
+      },
+      {
+       "name": "arXiv cs.AI: SPADE: Speculative Decoding for Precise and Low Cost Distributed Edge Cloud Inference",
+       "url": "https://arxiv.org/abs/2608.13076"
+      }
+     ]
+    }
+   ],
+   "generated_at": "2026-08-15T04:42:41.183864Z",
+   "generated_label": "15.08.2026 07:42"
+  },
   {
    "date": "2026-08-14",
    "intro": "Главная тема дня — не столько «новые модели», сколько качество, безопасность и управляемость ИИ: сразу несколько работ переосмысливают, как измерять reasoning, alignment и надежность LLM в сложных сценариях. Параллельно появляются практические системы для агентов, памяти и инференса, которые показывают, куда быстро смещается прикладной ИИ.",
