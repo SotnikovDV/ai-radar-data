@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T04:40:03.787106Z",
+ "updated": "2026-08-16T04:40:03.760653Z",
  "sources": [
   {
    "id": "openai",
@@ -7,7 +7,7 @@
    "cat": "lab",
    "site": "https://openai.com/news/",
    "ok": true,
-   "count": 53,
+   "count": 50,
    "error": null
   },
   {
@@ -62,7 +62,7 @@
    "site": "https://engineering.fb.com/category/ml-applications/",
    "ok": false,
    "count": 0,
-   "error": "ConnectTimeout: _ssl.c:993: The handshake operation timed out"
+   "error": "ConnectError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)"
   },
   {
    "id": "nvidia",
@@ -79,7 +79,7 @@
    "cat": "lab",
    "site": "https://huggingface.co/blog",
    "ok": true,
-   "count": 18,
+   "count": 16,
    "error": null
   },
   {
@@ -106,7 +106,7 @@
    "cat": "lab",
    "site": "https://research.google/blog/",
    "ok": true,
-   "count": 6,
+   "count": 5,
    "error": null
   },
   {
@@ -160,7 +160,7 @@
    "cat": "media",
    "site": "https://arstechnica.com/ai/",
    "ok": true,
-   "count": 20,
+   "count": 18,
    "error": null
   },
   {
@@ -222,9 +222,9 @@
    "name": "Import AI (Jack Clark)",
    "cat": "analysis",
    "site": "https://importai.substack.com/",
-   "ok": false,
-   "count": 0,
-   "error": "ReadTimeout: The read operation timed out"
+   "ok": true,
+   "count": 4,
+   "error": null
   },
   {
    "id": "latentspace",
@@ -259,7 +259,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.AI/recent",
    "ok": true,
-   "count": 299,
+   "count": 0,
    "error": null
   },
   {
