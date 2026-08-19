@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18T04:40:03.943759Z",
+ "updated": "2026-08-19T04:40:03.660302Z",
  "sources": [
   {
    "id": "openai",
@@ -7,7 +7,7 @@
    "cat": "lab",
    "site": "https://openai.com/news/",
    "ok": true,
-   "count": 50,
+   "count": 56,
    "error": null
   },
   {
@@ -79,7 +79,7 @@
    "cat": "lab",
    "site": "https://huggingface.co/blog",
    "ok": true,
-   "count": 16,
+   "count": 17,
    "error": null
   },
   {
@@ -160,7 +160,7 @@
    "cat": "media",
    "site": "https://arstechnica.com/ai/",
    "ok": true,
-   "count": 16,
+   "count": 17,
    "error": null
   },
   {
@@ -259,7 +259,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.AI/recent",
    "ok": true,
-   "count": 647,
+   "count": 275,
    "error": null
   },
   {
@@ -268,7 +268,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.LG/recent",
    "ok": true,
-   "count": 555,
+   "count": 237,
    "error": null
   },
   {
@@ -304,7 +304,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/data_secrets",
    "ok": true,
-   "count": 12,
+   "count": 13,
    "error": null
   },
   {
@@ -358,7 +358,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/tsingular",
    "ok": true,
-   "count": 20,
+   "count": 18,
    "error": null
   },
   {
@@ -385,7 +385,7 @@
    "cat": "telegram",
    "site": "https://chataibot.ru/blog/chatai/",
    "ok": true,
-   "count": 4,
+   "count": 5,
    "error": null
   }
  ]
