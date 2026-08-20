@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-19T04:40:03.660302Z",
+ "updated": "2026-08-20T04:40:03.578934Z",
  "sources": [
   {
    "id": "openai",
@@ -7,7 +7,7 @@
    "cat": "lab",
    "site": "https://openai.com/news/",
    "ok": true,
-   "count": 56,
+   "count": 59,
    "error": null
   },
   {
@@ -34,7 +34,7 @@
    "cat": "lab",
    "site": "https://blog.google/technology/ai/",
    "ok": true,
-   "count": 10,
+   "count": 11,
    "error": null
   },
   {
@@ -151,7 +151,7 @@
    "cat": "media",
    "site": "https://venturebeat.com/category/ai/",
    "ok": true,
-   "count": 0,
+   "count": 1,
    "error": null
   },
   {
@@ -259,7 +259,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.AI/recent",
    "ok": true,
-   "count": 275,
+   "count": 267,
    "error": null
   },
   {
@@ -268,7 +268,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.LG/recent",
    "ok": true,
-   "count": 237,
+   "count": 233,
    "error": null
   },
   {
@@ -304,7 +304,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/data_secrets",
    "ok": true,
-   "count": 13,
+   "count": 15,
    "error": null
   },
   {
@@ -349,7 +349,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/cgevent",
    "ok": true,
-   "count": 17,
+   "count": 15,
    "error": null
   },
   {
