@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-22T04:40:04.149228Z",
+ "updated": "2026-08-23T04:40:04.191723Z",
  "sources": [
   {
    "id": "openai",
@@ -7,7 +7,7 @@
    "cat": "lab",
    "site": "https://openai.com/news/",
    "ok": true,
-   "count": 56,
+   "count": 51,
    "error": null
   },
   {
@@ -25,7 +25,7 @@
    "cat": "lab",
    "site": "https://deepmind.google/discover/blog/",
    "ok": true,
-   "count": 8,
+   "count": 7,
    "error": null
   },
   {
@@ -34,7 +34,7 @@
    "cat": "lab",
    "site": "https://blog.google/technology/ai/",
    "ok": true,
-   "count": 11,
+   "count": 10,
    "error": null
   },
   {
@@ -43,7 +43,7 @@
    "cat": "lab",
    "site": "https://news.microsoft.com/source/topics/ai/",
    "ok": true,
-   "count": 4,
+   "count": 3,
    "error": null
   },
   {
@@ -79,7 +79,7 @@
    "cat": "lab",
    "site": "https://huggingface.co/blog",
    "ok": true,
-   "count": 18,
+   "count": 17,
    "error": null
   },
   {
@@ -106,7 +106,7 @@
    "cat": "lab",
    "site": "https://research.google/blog/",
    "ok": true,
-   "count": 8,
+   "count": 6,
    "error": null
   },
   {
@@ -114,9 +114,9 @@
    "name": "BAIR Berkeley",
    "cat": "lab",
    "site": "https://bair.berkeley.edu/blog/",
-   "ok": false,
-   "count": 0,
-   "error": "ConnectTimeout: timed out"
+   "ok": true,
+   "count": 2,
+   "error": null
   },
   {
    "id": "stanfordai",
@@ -304,7 +304,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/data_secrets",
    "ok": true,
-   "count": 16,
+   "count": 18,
    "error": null
   },
   {
