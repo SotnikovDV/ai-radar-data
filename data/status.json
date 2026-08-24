@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T04:40:04.191723Z",
+ "updated": "2026-08-24T04:40:04.221055Z",
  "sources": [
   {
    "id": "openai",
@@ -259,7 +259,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.AI/recent",
    "ok": true,
-   "count": 0,
+   "count": 290,
    "error": null
   },
   {
@@ -268,7 +268,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.LG/recent",
    "ok": true,
-   "count": 0,
+   "count": 195,
    "error": null
   },
   {
@@ -358,7 +358,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/tsingular",
    "ok": true,
-   "count": 14,
+   "count": 15,
    "error": null
   },
   {
