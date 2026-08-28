@@ -1,6 +1,118 @@
 {
- "updated": "2026-08-27T04:40:04.249221Z",
+ "updated": "2026-08-28T08:53:57.856278Z",
  "issues": [
+  {
+   "date": "2026-08-28",
+   "intro": "Главная тема дня — смещение ИИ-рынка от «магии моделей» к инфраструктуре, контролю и безопасности: компании спорят о лимитах, кэше, агентных рисках и способах защитить системы. Параллельно продолжается волна open-source и прикладных инструментов, которые забирают у SaaS часть функций и делают ИИ ближе к реальным рабочим процессам.",
+   "stories": [
+    {
+     "title": "OpenAI, Anthropic и Google объединились ради коллективной киберзащиты",
+     "summary": "OpenAI, Anthropic, Google и более 100 компаний выступили с совместным призывом усилить киберзащиту от ИИ-атак. В письме речь идет о «окне защищающихся», пока злоумышленники не получили такой же уровень инструментов.",
+     "why": "Это редкий случай публичной коалиции прямых конкурентов вокруг одной проблемы — безопасности. Для рынка ИИ это сигнал, что агентные и автоматизированные атаки уже воспринимаются как системный риск.",
+     "source": "Технологический Суверенитет",
+     "url": "https://t.me/tsingular/8285",
+     "tag": "безопасность",
+     "extra": [
+      {
+       "name": "TechCrunch AI",
+       "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/"
+      },
+      {
+       "name": "WIRED AI",
+       "url": "https://www.wired.com/story/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/"
+      }
+     ]
+    },
+    {
+     "title": "Суд заблокировал попытку Пентагона внести Anthropic в черный список",
+     "summary": "Суд признал незаконной попытку Пентагона внести Anthropic в черный список как риск для цепочек поставок. Решение стало важной победой компании в затяжном конфликте с администрацией Трампа.",
+     "why": "Это дело показывает, как быстро ИИ-компании оказываются в центре политических и оборонных споров. Исход подобных процессов влияет на доступ к госзаказам, комплаенс и границы допустимого регулирования.",
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
+     "tag": "регулирование",
+     "extra": [
+      {
+       "name": "The Verge AI",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling"
+      },
+      {
+       "name": "WIRED AI",
+       "url": "https://www.wired.com/story/a-judge-has-blocked-the-pentagons-attempt-to-blacklist-anthropic/"
+      }
+     ]
+    },
+    {
+     "title": "Google превратила AI Mode в инструмент для планирования и бронирования поездок",
+     "summary": "Google обновила AI Mode в поиске: теперь он умеет следить за ценами на авиабилеты, помогать с бронированием отелей и другими шагами планирования поездки. Фактически Search все дальше превращается в ИИ-агента для путешествий.",
+     "why": "Это еще один шаг от ответов к выполнению действий, а не просто к поиску информации. Для ИИ-рынка важно, что Google монетизирует агентный сценарий прямо в своем основном продукте.",
+     "source": "Google AI Blog",
+     "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+     "tag": "агенты",
+     "extra": [
+      {
+       "name": "Google DeepMind",
+       "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
+      },
+      {
+       "name": "Google AI Blog",
+       "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/"
+      }
+     ]
+    },
+    {
+     "title": "Gemini Notebook научился работать с купленными книгами",
+     "summary": "Google добавила в Gemini Notebook поддержку книг из Google Play Books. Пользователь может задавать вопросы по тексту и генерировать на его основе планы, инфографику и другие материалы.",
+     "why": "Это укрепляет позицию Google в нише ИИ-заметок и персональной базы знаний. Для аудитории ИИ это пример того, как экосистема контента становится частью модели монетизации и удержания.",
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books",
+     "tag": "продуктивность",
+     "extra": [
+      {
+       "name": "The Verge AI",
+       "url": "https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books"
+      }
+     ]
+    },
+    {
+     "title": "Одна строка в промпте может обнулить кеш и резко поднять стоимость запросов",
+     "summary": "Автор показал, что одна строка в системном промпте может полностью отключить кеш провайдера, если в начале запроса каждый раз меняется даже небольшой фрагмент текста. На живых вызовах это приводило к резкому падению попаданий в кеш и заметному росту стоимости.",
+     "why": "Для команд, которые много работают с агентами и LLM-API, это прямой удар по экономике продукта. Такая ошибка может стоить десятков процентов бюджета без какого-либо изменения функциональности.",
+     "source": "Хабр: ИИ",
+     "url": "https://habr.com/ru/articles/1075690/?utm_campaign=1075690&utm_source=habrahabr&utm_medium=rss",
+     "tag": "инфраструктура",
+     "extra": [
+      {
+       "name": "Хабр: ИИ",
+       "url": "https://habr.com/ru/articles/1075690/?utm_campaign=1075690&utm_source=habrahabr&utm_medium=rss"
+      },
+      {
+       "name": "Хабр: ИИ",
+       "url": "https://habr.com/ru/articles/1075556/?utm_campaign=1075556&utm_source=habrahabr&utm_medium=rss"
+      }
+     ]
+    },
+    {
+     "title": "Open-source проекты начинают заменять часть платного ИИ-стека",
+     "summary": "Подборка показывает, как open-source инструменты забирают на себя функции привычных платных сервисов: локальный NotebookLM, фильтр от AI-slop, маршрутизатор между LLM-провайдерами, агент для поиска работы и автоматический пентестер. При этом автор отдельно подчеркивает, что «бесплатно» часто означает лишь отсутствие подписки, но не отсутствие инфраструктурных затрат.",
+     "why": "Это отражает важный тренд: ценность смещается от закрытого SaaS к сборке собственных ИИ-пайплайнов. Для практиков это шанс снизить зависимость от вендоров и точнее подстроить стек под задачи.",
+     "source": "Хабр: ИИ",
+     "url": "https://habr.com/ru/companies/syntx_ai/articles/1075696/?utm_campaign=1075696&utm_source=habrahabr&utm_medium=rss",
+     "tag": "открытые модели",
+     "extra": [
+      {
+       "name": "Хабр: ИИ",
+       "url": "https://habr.com/ru/companies/syntx_ai/articles/1075696/?utm_campaign=1075696&utm_source=habrahabr&utm_medium=rss"
+      },
+      {
+       "name": "VC: ИИ",
+       "url": "https://vc.ru/ai/3101966-openai-ogranichivaet-sozdanie-kastomnyh-gpts?from=rss"
+      }
+     ]
+    }
+   ],
+   "generated_at": "2026-08-28T09:04:18.952608Z",
+   "generated_label": "28.08.2026 12:04"
+  },
   {
    "date": "2026-08-27",
    "intro": "Сегодняшняя повестка в ИИ в подборке почти целиком сосредоточена на прикладной эффективности: ускорение инференса, более компактные модели, квантование, дистилляция и оптимизация для реальных ограничений по памяти, энергии и задержкам. Параллельно заметны сильные работы по надежности, интерпретируемости и устойчивости моделей — от безопасности до PINN и мультимодального обучения.",

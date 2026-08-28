@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-27T04:40:04.249221Z",
+ "updated": "2026-08-28T08:53:57.856278Z",
  "sources": [
   {
    "id": "openai",
@@ -7,7 +7,7 @@
    "cat": "lab",
    "site": "https://openai.com/news/",
    "ok": true,
-   "count": 60,
+   "count": 62,
    "error": null
   },
   {
@@ -25,7 +25,7 @@
    "cat": "lab",
    "site": "https://deepmind.google/discover/blog/",
    "ok": true,
-   "count": 8,
+   "count": 10,
    "error": null
   },
   {
@@ -34,7 +34,7 @@
    "cat": "lab",
    "site": "https://blog.google/technology/ai/",
    "ok": true,
-   "count": 11,
+   "count": 12,
    "error": null
   },
   {
@@ -43,7 +43,7 @@
    "cat": "lab",
    "site": "https://news.microsoft.com/source/topics/ai/",
    "ok": true,
-   "count": 3,
+   "count": 2,
    "error": null
   },
   {
@@ -79,7 +79,7 @@
    "cat": "lab",
    "site": "https://huggingface.co/blog",
    "ok": true,
-   "count": 21,
+   "count": 20,
    "error": null
   },
   {
@@ -106,7 +106,7 @@
    "cat": "lab",
    "site": "https://research.google/blog/",
    "ok": true,
-   "count": 8,
+   "count": 9,
    "error": null
   },
   {
@@ -151,7 +151,7 @@
    "cat": "media",
    "site": "https://venturebeat.com/category/ai/",
    "ok": true,
-   "count": 2,
+   "count": 4,
    "error": null
   },
   {
@@ -258,18 +258,18 @@
    "name": "arXiv cs.AI",
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.AI/recent",
-   "ok": true,
-   "count": 352,
-   "error": null
+   "ok": false,
+   "count": 0,
+   "error": "ConnectTimeout: timed out"
   },
   {
    "id": "arxivlg",
    "name": "arXiv cs.LG",
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.LG/recent",
-   "ok": true,
-   "count": 308,
-   "error": null
+   "ok": false,
+   "count": 0,
+   "error": "ConnectTimeout: timed out"
   },
   {
    "id": "habr",
@@ -287,6 +287,24 @@
    "site": "https://habr.com/ru/hubs/machine_learning/",
    "ok": true,
    "count": 40,
+   "error": null
+  },
+  {
+   "id": "vc_ai",
+   "name": "VC: ИИ",
+   "cat": "ru",
+   "site": "https://vc.ru/ai",
+   "ok": true,
+   "count": 20,
+   "error": null
+  },
+  {
+   "id": "vc_dev",
+   "name": "VC: Разработчику",
+   "cat": "ru",
+   "site": "https://vc.ru/dev",
+   "ok": true,
+   "count": 0,
    "error": null
   },
   {
@@ -349,7 +367,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/cgevent",
    "ok": true,
-   "count": 19,
+   "count": 16,
    "error": null
   },
   {
@@ -358,7 +376,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/tsingular",
    "ok": true,
-   "count": 20,
+   "count": 19,
    "error": null
   },
   {
@@ -367,7 +385,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/nn_for_science",
    "ok": true,
-   "count": 8,
+   "count": 9,
    "error": null
   },
   {
@@ -385,7 +403,7 @@
    "cat": "telegram",
    "site": "https://chataibot.ru/blog/chatai/",
    "ok": true,
-   "count": 6,
+   "count": 7,
    "error": null
   }
  ]
