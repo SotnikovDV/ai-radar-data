@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-04T04:40:03.956704Z",
+ "updated": "2026-09-05T04:40:04.001446Z",
  "sources": [
   {
    "id": "openai",
@@ -34,7 +34,7 @@
    "cat": "lab",
    "site": "https://blog.google/technology/ai/",
    "ok": true,
-   "count": 11,
+   "count": 10,
    "error": null
   },
   {
@@ -43,7 +43,7 @@
    "cat": "lab",
    "site": "https://news.microsoft.com/source/topics/ai/",
    "ok": true,
-   "count": 3,
+   "count": 2,
    "error": null
   },
   {
@@ -259,7 +259,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.AI/recent",
    "ok": true,
-   "count": 269,
+   "count": 0,
    "error": null
   },
   {
@@ -268,7 +268,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.LG/recent",
    "ok": true,
-   "count": 272,
+   "count": 0,
    "error": null
   },
   {
@@ -313,7 +313,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/ai_newz",
    "ok": true,
-   "count": 14,
+   "count": 17,
    "error": null
   },
   {
@@ -322,7 +322,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/data_secrets",
    "ok": true,
-   "count": 16,
+   "count": 18,
    "error": null
   },
   {
@@ -331,7 +331,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/denissexy",
    "ok": true,
-   "count": 16,
+   "count": 15,
    "error": null
   },
   {
@@ -367,7 +367,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/cgevent",
    "ok": true,
-   "count": 14,
+   "count": 18,
    "error": null
   },
   {
@@ -376,7 +376,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/tsingular",
    "ok": true,
-   "count": 17,
+   "count": 12,
    "error": null
   },
   {
@@ -385,7 +385,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/nn_for_science",
    "ok": true,
-   "count": 7,
+   "count": 6,
    "error": null
   },
   {
@@ -403,7 +403,7 @@
    "cat": "telegram",
    "site": "https://chataibot.ru/blog/chatai/",
    "ok": true,
-   "count": 7,
+   "count": 6,
    "error": null
   },
   {
