@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-06T04:40:03.708382Z",
+ "updated": "2026-09-07T04:40:03.685176Z",
  "sources": [
   {
    "id": "openai",
@@ -25,7 +25,7 @@
    "cat": "lab",
    "site": "https://deepmind.google/discover/blog/",
    "ok": true,
-   "count": 11,
+   "count": 10,
    "error": null
   },
   {
@@ -259,7 +259,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.AI/recent",
    "ok": true,
-   "count": 0,
+   "count": 298,
    "error": null
   },
   {
@@ -268,7 +268,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.LG/recent",
    "ok": true,
-   "count": 0,
+   "count": 228,
    "error": null
   },
   {
@@ -313,7 +313,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/ai_newz",
    "ok": true,
-   "count": 17,
+   "count": 18,
    "error": null
   },
   {
@@ -331,7 +331,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/denissexy",
    "ok": true,
-   "count": 16,
+   "count": 18,
    "error": null
   },
   {
@@ -376,7 +376,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/tsingular",
    "ok": true,
-   "count": 19,
+   "count": 20,
    "error": null
   },
   {

@@ -1,6 +1,124 @@
 {
- "updated": "2026-09-06T04:40:03.708382Z",
+ "updated": "2026-09-07T04:40:03.685176Z",
  "issues": [
+  {
+   "date": "2026-09-07",
+   "intro": "Главная тема дня — сдвиг ИИ от «умных моделей» к полноценным агентным системам: всё больше работ посвящено оценке, безопасности, управляемости и практическому внедрению. Одновременно выходят исследования, показывающие, что рост возможностей моделей не всегда ведёт к лучшим системным результатам, а качество инфраструктуры и правил использования становится не менее важным, чем сама модель.",
+   "stories": [
+    {
+     "title": "Harbor Adapters и Harbor-Index стандартизируют оценку ИИ-агентов",
+     "summary": "Авторы представили Harbor Adapters — универсальную инфраструктуру для прогонки более чем 80 agentic-бенчмарков через единый интерфейс. Вместе с ней выходит Harbor-Index — curated-набор из 82 сложных задач, который сохраняет разнообразие benchmark-suite, но остаётся дешёвым в запуске и удобным для массовой оценки агентов.",
+     "why": "Для рынка ИИ это важный шаг к сопоставимому и воспроизводимому бенчмаркингу агентов. Без единой инфраструктуры сложно честно сравнивать модели, harness-ы и реальные режимы работы.",
+     "source": "arXiv cs.AI",
+     "url": "https://arxiv.org/abs/2609.04298",
+     "tag": "агенты",
+     "extra": [
+      {
+       "name": "arXiv cs.AI: Harbor Adapters and Harbor-Index",
+       "url": "https://arxiv.org/abs/2609.04298"
+      },
+      {
+       "name": "Agentic Software Engineering — CAIS 2026 Workshop",
+       "url": "https://agenticse-cais.github.io/"
+      },
+      {
+       "name": "Harbor Hub: harbor-index-1.0",
+       "url": "https://hub.harborframework.com/datasets/harbor-index/harbor-index-1.0/latest"
+      }
+     ]
+    },
+    {
+     "title": "Prompt injection становится задачей поискового взлома",
+     "summary": "Работа переопределяет indirect prompt injection как поисковую задачу на этапе исполнения, где атакующий агент системно исследует поверхность атаки и повышает успешность при росте вычислений. Авторы показывают, что безопасность tool-using агентов зависит не только от уязвимости жертвы, но и от стратегии, бюджета и адаптивности атакующего.",
+     "why": "Это напрямую касается всех, кто строит ИИ-агентов с доступом к инструментам и внешним данным. Работа подсказывает, что оценивать нужно не только модель, но и атакующую процедуру, иначе риски будут недооценены.",
+     "source": "arXiv cs.AI",
+     "url": "https://arxiv.org/abs/2609.04495",
+     "tag": "безопасность",
+     "extra": [
+      {
+       "name": "arXiv cs.AI: Rethinking Indirect Prompt Injection as a Test-Time Search Problem",
+       "url": "https://arxiv.org/abs/2609.04495"
+      },
+      {
+       "name": "arXiv cs.LG: From Language Models to World-Acting Systems",
+       "url": "https://arxiv.org/abs/2609.04894"
+      },
+      {
+       "name": "arXiv cs.AI: Harness-agnostic detection and immunization of reward hacking in self-evolving language models",
+       "url": "https://arxiv.org/abs/2609.04665"
+      }
+     ]
+    },
+    {
+     "title": "Рост качества моделей может повышать системный риск",
+     "summary": "Исследование показывает, что более сильные LLM могут вести себя более похоже друг на друга, из-за чего системные риски не уменьшаются, а иногда растут. На примере финансовых агентов авторы называют это «paradox of capability»: улучшение отдельной модели не гарантирует улучшения результата на уровне всей системы.",
+     "why": "Это важный сигнал для команд, которые внедряют несколько похожих моделей в одну инфраструктуру. Для инвесторов и продуктовых команд вывод прямой: нужно мерить не только accuracy, но и коррелированные ошибки и макроэффект системы.",
+     "source": "arXiv cs.AI",
+     "url": "https://arxiv.org/abs/2609.04373",
+     "tag": "риски",
+     "extra": [
+      {
+       "name": "arXiv cs.AI: Why Better Models Can Create Riskier Systems",
+       "url": "https://arxiv.org/abs/2609.04373"
+      },
+      {
+       "name": "arXiv cs.AI: HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals",
+       "url": "https://arxiv.org/abs/2609.04444"
+      },
+      {
+       "name": "arXiv cs.AI: Moral Competence Before Moral Content",
+       "url": "https://arxiv.org/abs/2609.05036"
+      }
+     ]
+    },
+    {
+     "title": "Text-to-SQL можно обучать без ручной разметки",
+     "summary": "SQL-Zero показывает, что конкурентоспособный Text-to-SQL-агент можно обучать без размеченных пар «вопрос—SQL»: система использует self-play, где challenger и solver улучшают друг друга только по сигналу выполнения в базе. В экспериментах на BIRD модель прибавляет к zero-shot базовой версии и демонстрирует перенос на новые базы и к лексическим возмущениям.",
+     "why": "Это снижает зависимость от дорогой разметки и упрощает масштабирование доменных SQL-агентов. Особенно важно для enterprise-сценариев, где схемы меняются быстрее, чем успевают собираться датасеты.",
+     "source": "arXiv cs.AI",
+     "url": "https://arxiv.org/abs/2609.04697",
+     "tag": "SQL",
+     "extra": [
+      {
+       "name": "arXiv cs.AI: SQL-Zero: Self-Evolving Text-to-SQL",
+       "url": "https://arxiv.org/abs/2609.04697"
+      },
+      {
+       "name": "arXiv cs.AI: Prof/— no extra source in подборке clearly tied",
+       "url": "https://arxiv.org/abs/2609.04304"
+      },
+      {
+       "name": "arXiv cs.AI: Compact-Memory LLM Agents via Online Max-Member Clustering and Atom-Aware Packing",
+       "url": "https://arxiv.org/abs/2609.04915"
+      }
+     ]
+    },
+    {
+     "title": "Copilot в SharePoint наследует все ошибки прав доступа",
+     "summary": "Разбор показывает, что Copilot в SharePoint работает строго в границах прав пользователя, поэтому скрытые или лишние данные могут попасть в ответ, если права доступа в SharePoint настроены слишком широко. Автор отдельно подчёркивает роль SharePoint Advanced Management и инструментов подготовки к Copilot в предотвращении accidental oversharing.",
+     "why": "Для компаний это практический вопрос безопасности данных, а не только удобства ИИ. Ошибки в правах доступа теперь превращаются в ошибки генерации и могут раскрывать лишнюю информацию сотрудникам.",
+     "source": "Хабр: ИИ",
+     "url": "https://habr.com/ru/articles/1078714/?utm_campaign=1078714&utm_source=habrahabr&utm_medium=rss",
+     "tag": "корпоративный ИИ",
+     "extra": [
+      {
+       "name": "Habr: ИИ — «Copilot видит только то, к чему у пользователя есть доступ»",
+       "url": "https://habr.com/ru/articles/1078714/?utm_campaign=1078714&utm_source=habrahabr&utm_medium=rss"
+      },
+      {
+       "name": "Microsoft SharePoint Advanced Management overview",
+       "url": "https://learn.microsoft.com/en-us/sharepoint/advanced-management"
+      },
+      {
+       "name": "Get ready for Microsoft Copilot with SharePoint Advanced Management",
+       "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/get-ready-copilot-sharepoint-advanced-management"
+      }
+     ]
+    }
+   ],
+   "generated_at": "2026-09-07T05:04:37.127326Z",
+   "generated_label": "07.09.2026 08:04"
+  },
   {
    "date": "2026-09-06",
    "intro": "Главная тема суток — новый виток гонки вокруг передовых ИИ-моделей и агентов: на фоне громкого запуска GPT-6 Astra обсуждают их реальные возможности, риски и то, как они уже меняют рабочие процессы. Параллельно усиливается повестка безопасности и регулирования: от судебных исков к OpenAI и Microsoft до международных разговоров о контроле над ИИ-кибератаками.",
