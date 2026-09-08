@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-07T04:40:03.685176Z",
+ "updated": "2026-09-08T04:40:34.715467Z",
  "sources": [
   {
    "id": "openai",
@@ -7,7 +7,7 @@
    "cat": "lab",
    "site": "https://openai.com/news/",
    "ok": true,
-   "count": 59,
+   "count": 58,
    "error": null
   },
   {
@@ -133,7 +133,7 @@
    "cat": "media",
    "site": "https://techcrunch.com/category/artificial-intelligence/",
    "ok": true,
-   "count": 19,
+   "count": 20,
    "error": null
   },
   {
@@ -141,9 +141,9 @@
    "name": "The Verge AI",
    "cat": "media",
    "site": "https://www.theverge.com/ai-artificial-intelligence",
-   "ok": true,
-   "count": 10,
-   "error": null
+   "ok": false,
+   "count": 0,
+   "error": "ConnectTimeout: _ssl.c:993: The handshake operation timed out"
   },
   {
    "id": "vb",
@@ -259,7 +259,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.AI/recent",
    "ok": true,
-   "count": 298,
+   "count": 0,
    "error": null
   },
   {
@@ -268,7 +268,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.LG/recent",
    "ok": true,
-   "count": 228,
+   "count": 0,
    "error": null
   },
   {
@@ -322,7 +322,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/data_secrets",
    "ok": true,
-   "count": 18,
+   "count": 17,
    "error": null
   },
   {
@@ -331,7 +331,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/denissexy",
    "ok": true,
-   "count": 18,
+   "count": 19,
    "error": null
   },
   {
@@ -340,7 +340,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/seeallochnaya",
    "ok": true,
-   "count": 9,
+   "count": 12,
    "error": null
   },
   {
@@ -367,7 +367,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/cgevent",
    "ok": true,
-   "count": 11,
+   "count": 12,
    "error": null
   },
   {
@@ -376,7 +376,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/tsingular",
    "ok": true,
-   "count": 20,
+   "count": 18,
    "error": null
   },
   {
