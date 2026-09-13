@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T04:40:03.428217Z",
+ "updated": "2026-09-13T04:40:03.400199Z",
  "sources": [
   {
    "id": "openai",
@@ -7,7 +7,7 @@
    "cat": "lab",
    "site": "https://openai.com/news/",
    "ok": true,
-   "count": 66,
+   "count": 65,
    "error": null
   },
   {
@@ -25,7 +25,7 @@
    "cat": "lab",
    "site": "https://deepmind.google/discover/blog/",
    "ok": true,
-   "count": 11,
+   "count": 10,
    "error": null
   },
   {
@@ -52,7 +52,7 @@
    "cat": "lab",
    "site": "https://www.microsoft.com/en-us/research/blog/",
    "ok": true,
-   "count": 3,
+   "count": 2,
    "error": null
   },
   {
@@ -79,7 +79,7 @@
    "cat": "lab",
    "site": "https://huggingface.co/blog",
    "ok": true,
-   "count": 24,
+   "count": 22,
    "error": null
   },
   {
@@ -106,7 +106,7 @@
    "cat": "lab",
    "site": "https://research.google/blog/",
    "ok": true,
-   "count": 12,
+   "count": 11,
    "error": null
   },
   {
@@ -259,7 +259,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.AI/recent",
    "ok": true,
-   "count": 273,
+   "count": 0,
    "error": null
   },
   {
@@ -322,7 +322,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/data_secrets",
    "ok": true,
-   "count": 15,
+   "count": 14,
    "error": null
   },
   {
@@ -331,7 +331,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/denissexy",
    "ok": true,
-   "count": 17,
+   "count": 16,
    "error": null
   },
   {
@@ -340,7 +340,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/seeallochnaya",
    "ok": true,
-   "count": 17,
+   "count": 18,
    "error": null
   },
   {
