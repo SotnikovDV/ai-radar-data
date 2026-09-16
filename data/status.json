@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-15T04:40:04.031468Z",
+ "updated": "2026-09-16T04:40:04.085537Z",
  "sources": [
   {
    "id": "openai",
@@ -25,7 +25,7 @@
    "cat": "lab",
    "site": "https://deepmind.google/discover/blog/",
    "ok": true,
-   "count": 9,
+   "count": 10,
    "error": null
   },
   {
@@ -34,7 +34,7 @@
    "cat": "lab",
    "site": "https://blog.google/technology/ai/",
    "ok": true,
-   "count": 12,
+   "count": 16,
    "error": null
   },
   {
@@ -60,9 +60,9 @@
    "name": "Meta AI Engineering",
    "cat": "lab",
    "site": "https://engineering.fb.com/category/ml-applications/",
-   "ok": false,
-   "count": 0,
-   "error": "ConnectTimeout: _ssl.c:993: The handshake operation timed out"
+   "ok": true,
+   "count": 1,
+   "error": null
   },
   {
    "id": "nvidia",
@@ -87,9 +87,9 @@
    "name": "AWS Machine Learning",
    "cat": "lab",
    "site": "https://aws.amazon.com/blogs/machine-learning/",
-   "ok": false,
-   "count": 0,
-   "error": "ConnectTimeout: _ssl.c:993: The handshake operation timed out"
+   "ok": true,
+   "count": 20,
+   "error": null
   },
   {
    "id": "mistral",
@@ -106,7 +106,7 @@
    "cat": "lab",
    "site": "https://research.google/blog/",
    "ok": true,
-   "count": 11,
+   "count": 12,
    "error": null
   },
   {
@@ -187,7 +187,7 @@
    "cat": "media",
    "site": "https://www.zdnet.com/topic/artificial-intelligence/",
    "ok": true,
-   "count": 23,
+   "count": 25,
    "error": null
   },
   {
@@ -259,7 +259,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.AI/recent",
    "ok": true,
-   "count": 634,
+   "count": 297,
    "error": null
   },
   {
@@ -268,7 +268,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.LG/recent",
    "ok": true,
-   "count": 541,
+   "count": 277,
    "error": null
   },
   {
@@ -312,99 +312,99 @@
    "name": "эйай ньюз",
    "cat": "telegram",
    "site": "https://t.me/s/ai_newz",
-   "ok": false,
-   "count": 0,
-   "error": "ReadTimeout: timed out"
+   "ok": true,
+   "count": 16,
+   "error": null
   },
   {
    "id": "tg_data_secrets",
    "name": "Data Secrets",
    "cat": "telegram",
    "site": "https://t.me/s/data_secrets",
-   "ok": false,
-   "count": 0,
-   "error": "ReadTimeout: timed out"
+   "ok": true,
+   "count": 15,
+   "error": null
   },
   {
    "id": "tg_denissexy",
    "name": "Denis Sexy IT",
    "cat": "telegram",
    "site": "https://t.me/s/denissexy",
-   "ok": false,
-   "count": 0,
-   "error": "ReadTimeout: timed out"
+   "ok": true,
+   "count": 15,
+   "error": null
   },
   {
    "id": "tg_seeallochnaya",
    "name": "Сиолошная",
    "cat": "telegram",
    "site": "https://t.me/s/seeallochnaya",
-   "ok": false,
-   "count": 0,
-   "error": "ReadTimeout: timed out"
+   "ok": true,
+   "count": 19,
+   "error": null
   },
   {
    "id": "tg_gonzo_ml",
    "name": "gonzo-обзоры ML",
    "cat": "telegram",
    "site": "https://t.me/s/gonzo_ML",
-   "ok": false,
-   "count": 0,
-   "error": "ReadTimeout: timed out"
+   "ok": true,
+   "count": 17,
+   "error": null
   },
   {
    "id": "tg_addmeto",
    "name": "addmeto",
    "cat": "telegram",
    "site": "https://t.me/s/addmeto",
-   "ok": false,
+   "ok": true,
    "count": 0,
-   "error": "ReadTimeout: timed out"
+   "error": null
   },
   {
    "id": "tg_cgevent",
    "name": "Метаверсище и ИИще",
    "cat": "telegram",
    "site": "https://t.me/s/cgevent",
-   "ok": false,
-   "count": 0,
-   "error": "ReadTimeout: timed out"
+   "ok": true,
+   "count": 15,
+   "error": null
   },
   {
    "id": "tg_tsingular",
    "name": "Технологический Суверенитет",
    "cat": "telegram",
    "site": "https://t.me/s/tsingular",
-   "ok": false,
-   "count": 0,
-   "error": "ReadTimeout: timed out"
+   "ok": true,
+   "count": 18,
+   "error": null
   },
   {
    "id": "tg_nn_for_science",
    "name": "AI для Всех",
    "cat": "telegram",
    "site": "https://t.me/s/nn_for_science",
-   "ok": false,
-   "count": 0,
-   "error": "ReadTimeout: timed out"
+   "ok": true,
+   "count": 3,
+   "error": null
   },
   {
    "id": "tg_aimanualru",
    "name": "AiManual — база знаний по ИИ",
    "cat": "telegram",
    "site": "https://ai-manual.ru/articles/",
-   "ok": false,
-   "count": 0,
-   "error": "ReadTimeout: timed out"
+   "ok": true,
+   "count": 20,
+   "error": null
   },
   {
    "id": "tg_chatai",
    "name": "Chat AI",
    "cat": "telegram",
    "site": "https://chataibot.ru/blog/chatai/",
-   "ok": false,
-   "count": 0,
-   "error": "ReadTimeout: timed out"
+   "ok": true,
+   "count": 7,
+   "error": null
   },
   {
    "id": "ai_digest",
