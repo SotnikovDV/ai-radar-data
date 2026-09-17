@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-16T04:40:04.085537Z",
+ "updated": "2026-09-17T04:40:04.114623Z",
  "sources": [
   {
    "id": "openai",
@@ -7,7 +7,7 @@
    "cat": "lab",
    "site": "https://openai.com/news/",
    "ok": true,
-   "count": 63,
+   "count": 67,
    "error": null
   },
   {
@@ -125,7 +125,7 @@
    "site": "https://ai.stanford.edu/blog/",
    "ok": false,
    "count": 0,
-   "error": "ConnectTimeout: _ssl.c:993: The handshake operation timed out"
+   "error": "ConnectError: [Errno -2] Name or service not known"
   },
   {
    "id": "tc",
@@ -259,7 +259,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.AI/recent",
    "ok": true,
-   "count": 297,
+   "count": 304,
    "error": null
   },
   {
@@ -268,7 +268,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.LG/recent",
    "ok": true,
-   "count": 277,
+   "count": 325,
    "error": null
   },
   {
@@ -322,7 +322,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/data_secrets",
    "ok": true,
-   "count": 15,
+   "count": 18,
    "error": null
   },
   {
@@ -349,7 +349,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/gonzo_ML",
    "ok": true,
-   "count": 17,
+   "count": 20,
    "error": null
   },
   {
@@ -367,7 +367,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/cgevent",
    "ok": true,
-   "count": 15,
+   "count": 11,
    "error": null
   },
   {
@@ -376,7 +376,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/tsingular",
    "ok": true,
-   "count": 18,
+   "count": 17,
    "error": null
   },
   {
@@ -385,7 +385,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/nn_for_science",
    "ok": true,
-   "count": 3,
+   "count": 4,
    "error": null
   },
   {
@@ -403,7 +403,7 @@
    "cat": "telegram",
    "site": "https://chataibot.ru/blog/chatai/",
    "ok": true,
-   "count": 7,
+   "count": 8,
    "error": null
   },
   {
