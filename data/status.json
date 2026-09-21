@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-20T04:40:03.981084Z",
+ "updated": "2026-09-21T04:40:03.936317Z",
  "sources": [
   {
    "id": "openai",
@@ -7,7 +7,7 @@
    "cat": "lab",
    "site": "https://openai.com/news/",
    "ok": true,
-   "count": 59,
+   "count": 58,
    "error": null
   },
   {
@@ -52,7 +52,7 @@
    "cat": "lab",
    "site": "https://www.microsoft.com/en-us/research/blog/",
    "ok": true,
-   "count": 2,
+   "count": 1,
    "error": null
   },
   {
@@ -60,9 +60,9 @@
    "name": "Meta AI Engineering",
    "cat": "lab",
    "site": "https://engineering.fb.com/category/ml-applications/",
-   "ok": true,
-   "count": 1,
-   "error": null
+   "ok": false,
+   "count": 0,
+   "error": "ConnectTimeout: _ssl.c:993: The handshake operation timed out"
   },
   {
    "id": "nvidia",
@@ -79,7 +79,7 @@
    "cat": "lab",
    "site": "https://huggingface.co/blog",
    "ok": true,
-   "count": 18,
+   "count": 15,
    "error": null
   },
   {
@@ -87,9 +87,9 @@
    "name": "AWS Machine Learning",
    "cat": "lab",
    "site": "https://aws.amazon.com/blogs/machine-learning/",
-   "ok": true,
-   "count": 20,
-   "error": null
+   "ok": false,
+   "count": 0,
+   "error": "ConnectTimeout: _ssl.c:993: The handshake operation timed out"
   },
   {
    "id": "mistral",
@@ -125,7 +125,7 @@
    "site": "https://ai.stanford.edu/blog/",
    "ok": false,
    "count": 0,
-   "error": "ConnectError: [Errno -2] Name or service not known"
+   "error": "ConnectTimeout: _ssl.c:993: The handshake operation timed out"
   },
   {
    "id": "tc",
@@ -222,9 +222,9 @@
    "name": "Import AI (Jack Clark)",
    "cat": "analysis",
    "site": "https://importai.substack.com/",
-   "ok": true,
-   "count": 3,
-   "error": null
+   "ok": false,
+   "count": 0,
+   "error": "ReadTimeout: The read operation timed out"
   },
   {
    "id": "latentspace",
@@ -240,9 +240,9 @@
    "name": "Interconnects (Nathan Lambert)",
    "cat": "analysis",
    "site": "https://www.interconnects.ai/",
-   "ok": true,
-   "count": 5,
-   "error": null
+   "ok": false,
+   "count": 0,
+   "error": "ReadTimeout: The read operation timed out"
   },
   {
    "id": "semianalysis",
@@ -259,7 +259,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.AI/recent",
    "ok": true,
-   "count": 0,
+   "count": 214,
    "error": null
   },
   {
@@ -268,7 +268,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.LG/recent",
    "ok": true,
-   "count": 0,
+   "count": 237,
    "error": null
   },
   {
@@ -322,7 +322,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/data_secrets",
    "ok": true,
-   "count": 13,
+   "count": 8,
    "error": null
   },
   {
@@ -331,7 +331,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/denissexy",
    "ok": true,
-   "count": 16,
+   "count": 17,
    "error": null
   },
   {
@@ -367,7 +367,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/cgevent",
    "ok": true,
-   "count": 14,
+   "count": 3,
    "error": null
   },
   {
@@ -376,7 +376,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/tsingular",
    "ok": true,
-   "count": 20,
+   "count": 19,
    "error": null
   },
   {
