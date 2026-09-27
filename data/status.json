@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-26T04:40:03.977282Z",
+ "updated": "2026-09-27T04:40:03.583244Z",
  "sources": [
   {
    "id": "openai",
@@ -7,7 +7,7 @@
    "cat": "lab",
    "site": "https://openai.com/news/",
    "ok": true,
-   "count": 71,
+   "count": 68,
    "error": null
   },
   {
@@ -25,7 +25,7 @@
    "cat": "lab",
    "site": "https://deepmind.google/discover/blog/",
    "ok": true,
-   "count": 12,
+   "count": 11,
    "error": null
   },
   {
@@ -106,7 +106,7 @@
    "cat": "lab",
    "site": "https://research.google/blog/",
    "ok": true,
-   "count": 11,
+   "count": 10,
    "error": null
   },
   {
@@ -376,7 +376,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/tsingular",
    "ok": true,
-   "count": 18,
+   "count": 7,
    "error": null
   },
   {
