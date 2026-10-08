@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T04:40:04.278394Z",
+ "updated": "2026-10-08T04:40:35.314928Z",
  "sources": [
   {
    "id": "openai",
@@ -7,7 +7,7 @@
    "cat": "lab",
    "site": "https://openai.com/news/",
    "ok": true,
-   "count": 74,
+   "count": 75,
    "error": null
   },
   {
@@ -34,7 +34,7 @@
    "cat": "lab",
    "site": "https://blog.google/technology/ai/",
    "ok": true,
-   "count": 15,
+   "count": 16,
    "error": null
   },
   {
@@ -52,7 +52,7 @@
    "cat": "lab",
    "site": "https://www.microsoft.com/en-us/research/blog/",
    "ok": true,
-   "count": 5,
+   "count": 6,
    "error": null
   },
   {
@@ -79,7 +79,7 @@
    "cat": "lab",
    "site": "https://huggingface.co/blog",
    "ok": true,
-   "count": 17,
+   "count": 16,
    "error": null
   },
   {
@@ -106,7 +106,7 @@
    "cat": "lab",
    "site": "https://research.google/blog/",
    "ok": true,
-   "count": 9,
+   "count": 10,
    "error": null
   },
   {
@@ -133,7 +133,7 @@
    "cat": "media",
    "site": "https://techcrunch.com/category/artificial-intelligence/",
    "ok": true,
-   "count": 18,
+   "count": 20,
    "error": null
   },
   {
@@ -268,7 +268,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.LG/recent",
    "ok": true,
-   "count": 526,
+   "count": 512,
    "error": null
   },
   {
@@ -313,7 +313,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/ai_newz",
    "ok": true,
-   "count": 12,
+   "count": 14,
    "error": null
   },
   {
@@ -322,7 +322,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/data_secrets",
    "ok": true,
-   "count": 18,
+   "count": 9,
    "error": null
   },
   {
@@ -331,7 +331,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/denissexy",
    "ok": true,
-   "count": 13,
+   "count": 15,
    "error": null
   },
   {
@@ -349,7 +349,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/gonzo_ML",
    "ok": true,
-   "count": 19,
+   "count": 20,
    "error": null
   },
   {
@@ -367,7 +367,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/cgevent",
    "ok": true,
-   "count": 13,
+   "count": 15,
    "error": null
   },
   {
@@ -385,7 +385,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/nn_for_science",
    "ok": true,
-   "count": 7,
+   "count": 8,
    "error": null
   },
   {
