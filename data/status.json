@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T04:40:35.314928Z",
+ "updated": "2026-10-09T04:40:04.266588Z",
  "sources": [
   {
    "id": "openai",
@@ -7,7 +7,7 @@
    "cat": "lab",
    "site": "https://openai.com/news/",
    "ok": true,
-   "count": 75,
+   "count": 77,
    "error": null
   },
   {
@@ -79,7 +79,7 @@
    "cat": "lab",
    "site": "https://huggingface.co/blog",
    "ok": true,
-   "count": 16,
+   "count": 18,
    "error": null
   },
   {
@@ -152,7 +152,7 @@
    "site": "https://venturebeat.com/category/ai/",
    "ok": false,
    "count": 0,
-   "error": "ConnectTimeout: timed out"
+   "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://venturebeat.com/category/ai/feed/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
   },
   {
    "id": "ars",
@@ -259,7 +259,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.AI/recent",
    "ok": true,
-   "count": 507,
+   "count": 472,
    "error": null
   },
   {
@@ -268,7 +268,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.LG/recent",
    "ok": true,
-   "count": 512,
+   "count": 472,
    "error": null
   },
   {
@@ -331,7 +331,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/denissexy",
    "ok": true,
-   "count": 15,
+   "count": 16,
    "error": null
   },
   {
@@ -367,7 +367,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/cgevent",
    "ok": true,
-   "count": 15,
+   "count": 8,
    "error": null
   },
   {
