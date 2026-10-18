@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T04:40:03.843697Z",
+ "updated": "2026-10-18T04:40:03.908562Z",
  "sources": [
   {
    "id": "openai",
@@ -7,7 +7,7 @@
    "cat": "lab",
    "site": "https://openai.com/news/",
    "ok": true,
-   "count": 72,
+   "count": 66,
    "error": null
   },
   {
@@ -322,7 +322,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/data_secrets",
    "ok": true,
-   "count": 15,
+   "count": 16,
    "error": null
   },
   {
@@ -367,7 +367,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/cgevent",
    "ok": true,
-   "count": 6,
+   "count": 9,
    "error": null
   },
   {
@@ -376,7 +376,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/tsingular",
    "ok": true,
-   "count": 14,
+   "count": 10,
    "error": null
   },
   {
@@ -385,7 +385,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/nn_for_science",
    "ok": true,
-   "count": 11,
+   "count": 10,
    "error": null
   },
   {
@@ -403,7 +403,7 @@
    "cat": "telegram",
    "site": "https://chataibot.ru/blog/chatai/",
    "ok": true,
-   "count": 8,
+   "count": 7,
    "error": null
   },
   {
