@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T04:40:04.390863Z",
+ "updated": "2026-10-26T04:40:03.449314Z",
  "sources": [
   {
    "id": "openai",
@@ -7,7 +7,7 @@
    "cat": "lab",
    "site": "https://openai.com/news/",
    "ok": true,
-   "count": 64,
+   "count": 63,
    "error": null
   },
   {
@@ -25,7 +25,7 @@
    "cat": "lab",
    "site": "https://deepmind.google/discover/blog/",
    "ok": true,
-   "count": 10,
+   "count": 9,
    "error": null
   },
   {
@@ -106,7 +106,7 @@
    "cat": "lab",
    "site": "https://research.google/blog/",
    "ok": true,
-   "count": 12,
+   "count": 11,
    "error": null
   },
   {
@@ -187,7 +187,7 @@
    "cat": "media",
    "site": "https://www.zdnet.com/topic/artificial-intelligence/",
    "ok": true,
-   "count": 25,
+   "count": 24,
    "error": null
   },
   {
@@ -259,7 +259,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.AI/recent",
    "ok": true,
-   "count": 0,
+   "count": 321,
    "error": null
   },
   {
@@ -367,7 +367,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/cgevent",
    "ok": true,
-   "count": 9,
+   "count": 10,
    "error": null
   },
   {
