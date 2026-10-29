@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T04:40:03.542370Z",
+ "updated": "2026-10-29T04:40:03.698447Z",
  "sources": [
   {
    "id": "openai",
@@ -7,7 +7,7 @@
    "cat": "lab",
    "site": "https://openai.com/news/",
    "ok": true,
-   "count": 74,
+   "count": 75,
    "error": null
   },
   {
@@ -25,7 +25,7 @@
    "cat": "lab",
    "site": "https://deepmind.google/discover/blog/",
    "ok": true,
-   "count": 10,
+   "count": 11,
    "error": null
   },
   {
@@ -79,7 +79,7 @@
    "cat": "lab",
    "site": "https://huggingface.co/blog",
    "ok": true,
-   "count": 26,
+   "count": 25,
    "error": null
   },
   {
@@ -249,9 +249,9 @@
    "name": "SemiAnalysis",
    "cat": "analysis",
    "site": "https://semianalysis.com/",
-   "ok": false,
+   "ok": true,
    "count": 0,
-   "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://semianalysis.com/feed'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+   "error": null
   },
   {
    "id": "arxiv",
@@ -259,7 +259,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.AI/recent",
    "ok": true,
-   "count": 407,
+   "count": 0,
    "error": null
   },
   {
@@ -268,7 +268,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.LG/recent",
    "ok": true,
-   "count": 697,
+   "count": 0,
    "error": null
   },
   {
@@ -331,7 +331,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/denissexy",
    "ok": true,
-   "count": 17,
+   "count": 18,
    "error": null
   },
   {
@@ -358,7 +358,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/addmeto",
    "ok": true,
-   "count": 1,
+   "count": 2,
    "error": null
   },
   {
@@ -367,7 +367,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/cgevent",
    "ok": true,
-   "count": 11,
+   "count": 13,
    "error": null
   },
   {
@@ -403,7 +403,7 @@
    "cat": "telegram",
    "site": "https://chataibot.ru/blog/chatai/",
    "ok": true,
-   "count": 9,
+   "count": 10,
    "error": null
   },
   {
@@ -412,7 +412,7 @@
    "cat": "telegram",
    "site": "https://t.me/petsproject",
    "ok": true,
-   "count": 18,
+   "count": 16,
    "error": null
   },
   {
