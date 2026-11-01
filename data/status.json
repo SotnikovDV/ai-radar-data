@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T04:40:03.834072Z",
+ "updated": "2026-11-01T04:40:03.562617Z",
  "sources": [
   {
    "id": "openai",
@@ -25,7 +25,7 @@
    "cat": "lab",
    "site": "https://deepmind.google/discover/blog/",
    "ok": true,
-   "count": 11,
+   "count": 9,
    "error": null
   },
   {
@@ -52,7 +52,7 @@
    "cat": "lab",
    "site": "https://www.microsoft.com/en-us/research/blog/",
    "ok": true,
-   "count": 7,
+   "count": 6,
    "error": null
   },
   {
@@ -259,7 +259,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.AI/recent",
    "ok": true,
-   "count": 605,
+   "count": 0,
    "error": null
   },
   {
@@ -349,7 +349,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/gonzo_ML",
    "ok": true,
-   "count": 19,
+   "count": 20,
    "error": null
   },
   {
@@ -358,7 +358,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/addmeto",
    "ok": true,
-   "count": 8,
+   "count": 10,
    "error": null
   },
   {
@@ -367,7 +367,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/cgevent",
    "ok": true,
-   "count": 14,
+   "count": 16,
    "error": null
   },
   {
@@ -403,7 +403,7 @@
    "cat": "telegram",
    "site": "https://t.me/petsproject",
    "ok": true,
-   "count": 16,
+   "count": 15,
    "error": null
   },
   {
@@ -412,7 +412,7 @@
    "cat": "telegram",
    "site": "https://chataibot.ru/blog/chatai/",
    "ok": true,
-   "count": 10,
+   "count": 9,
    "error": null
   },
   {
