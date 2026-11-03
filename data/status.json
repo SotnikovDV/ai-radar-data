@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T04:40:03.683060Z",
+ "updated": "2026-11-03T04:40:03.684784Z",
  "sources": [
   {
    "id": "openai",
@@ -7,7 +7,7 @@
    "cat": "lab",
    "site": "https://openai.com/news/",
    "ok": true,
-   "count": 70,
+   "count": 76,
    "error": null
   },
   {
@@ -25,7 +25,7 @@
    "cat": "lab",
    "site": "https://deepmind.google/discover/blog/",
    "ok": true,
-   "count": 9,
+   "count": 10,
    "error": null
   },
   {
@@ -106,7 +106,7 @@
    "cat": "lab",
    "site": "https://research.google/blog/",
    "ok": true,
-   "count": 11,
+   "count": 10,
    "error": null
   },
   {
@@ -268,7 +268,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.LG/recent",
    "ok": true,
-   "count": 0,
+   "count": 337,
    "error": null
   },
   {
@@ -322,7 +322,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/data_secrets",
    "ok": true,
-   "count": 19,
+   "count": 12,
    "error": null
   },
   {
@@ -358,7 +358,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/addmeto",
    "ok": true,
-   "count": 10,
+   "count": 15,
    "error": null
   },
   {
@@ -412,7 +412,7 @@
    "cat": "telegram",
    "site": "https://t.me/petsproject",
    "ok": true,
-   "count": 16,
+   "count": 19,
    "error": null
   },
   {

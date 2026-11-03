@@ -1,6 +1,108 @@
 {
- "updated": "2026-11-02T04:40:03.683060Z",
+ "updated": "2026-11-03T04:40:03.684784Z",
  "issues": [
+  {
+   "date": "2026-11-03",
+   "intro": "Главная тема суток — ускорение индустрии вокруг практического ИИ: от запусков потребительских продуктов и новых агентских сценариев до вопросов безопасности, стоимости и инфраструктуры. Параллельно заметно усиливается фокус на том, как ИИ встраивается в реальные рабочие процессы, и кто платит за его масштабирование.",
+   "stories": [
+    {
+     "title": "Google запускает Dreambeans в Индии на 13–14 языках",
+     "summary": "Google вывел экспериментальный сервис Dreambeans в Индию и добавил поддержку 13–14 местных языков, сделав продукт доступным для широкой аудитории. Приложение генерирует персонализированные иллюстрированные истории на основе данных из связанных сервисов Google, без необходимости вводить запрос вручную.",
+     "why": "Это важный сигнал о том, как ИИ-продукты выходят за пределы англоязычного рынка и становятся массовым consumer-сервисом. Для рынка это также пример того, как экосистема данных Google превращается в основу новых AI-форматов.",
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+     "tag": "продукты",
+     "extra": [
+      {
+       "name": "TechCrunch AI",
+       "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/"
+      },
+      {
+       "name": "Google AI Blog",
+       "url": "https://blog.google/intl/en-in/products/dreambeans-is-now-available-to-everyone-in-india/"
+      },
+      {
+       "name": "Gadgets 360",
+       "url": "https://www.gadgets360.com/apps/news/google-dreambeans-app-india-launch-ai-powered-personalised-stories-features-12274407"
+      }
+     ]
+    },
+    {
+     "title": "Anthropic предупреждает о близости к порогу RSI",
+     "summary": "Anthropic в обновленных раскрытиях рисков заявила, что может вскоре приблизиться к собственному определению RSI — recursive self-improvement, то есть ускорения прогресса за счет ИИ, помогающего строить более сильные модели. При этом компания уточнила, что ни одна из текущих моделей этот порог не перешла, а человеческий контроль в R&D сохраняется.",
+     "why": "Это один из самых сильных публичных сигналов, что лаборатории уже обсуждают не только возможности моделей, но и риск ускоренного самосовершенствования. Для аудитории ИИ-рынка это важная рамка: безопасность и контроль становятся частью стратегии, а не отдельной темой.",
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+     "tag": "безопасность",
+     "extra": [
+      {
+       "name": "TechCrunch AI",
+       "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+      },
+      {
+       "name": "OpenAI News",
+       "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai"
+      }
+     ]
+    },
+    {
+     "title": "xAI урезает лимиты Grok Bot из-за экономики сервиса",
+     "summary": "Илон Маск снизил лимиты Grok Bot, объяснив это тем, что стоимость обслуживания агента слишком высока относительно выручки. На фоне этого xAI фактически сигнализирует, что даже популярные агентские продукты могут быть экономически тяжелыми при высокой нагрузке.",
+     "why": "Это показывает, что масштабирование ИИ упирается не только в качество моделей, но и в unit economics. Для читателей это полезный индикатор того, как быстро агентные продукты могут стать дорогими в эксплуатации.",
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+     "tag": "агенты",
+     "extra": [
+      {
+       "name": "TechCrunch AI",
+       "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/"
+      },
+      {
+       "name": "Технологический Суверенитет",
+       "url": "https://t.me/tsingular/9120"
+      }
+     ]
+    },
+    {
+     "title": "OpenAI усиливает киберзащиту и повышает bug bounty",
+     "summary": "OpenAI объявила о расширении программы bug bounty и заметно увеличила вознаграждения за критические находки. Одновременно компания готовит новый внутренний security sprint, в котором будет использовать ИИ для тестирования и укрепления собственных систем.",
+     "why": "Это важный маркер зрелости рынка: ведущие лаборатории начинают системно инвестировать в оборону так же серьезно, как и в продукт. Для индустрии это означает рост спроса на исследователей безопасности и на практики red teaming.",
+     "source": "OpenAI News",
+     "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+     "tag": "безопасность",
+     "extra": [
+      {
+       "name": "OpenAI News",
+       "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"
+      },
+      {
+       "name": "OpenAI News",
+       "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai"
+      }
+     ]
+    },
+    {
+     "title": "Появляются безопасные шлюзы для доступа ИИ к инфраструктуре",
+     "summary": "Автор проекта GateRook показал локальный MCP-шлюз, который дает ИИ-агентам доступ к базам, логам и серверам, но ограничивает действия и требует подтверждения изменений. Идея в том, чтобы дать модели полезный доступ к рабочей инфраструктуре, не открывая ей произвольный контроль над ней.",
+     "why": "Это практический ответ на главный вопрос enterprise-ИИ: как дать агентам реальные полномочия, не потеряв контроль. Такие решения формируют новый слой инфраструктуры между моделью и production-системами.",
+     "source": "Хабр: ИИ",
+     "url": "https://habr.com/ru/articles/1102946/?utm_campaign=1102946&utm_source=habrahabr&utm_medium=rss",
+     "tag": "инструменты",
+     "extra": [
+      {
+       "name": "Habr: ИИ",
+       "url": "https://habr.com/ru/articles/1102946/?utm_campaign=1102946&utm_source=habrahabr&utm_medium=rss"
+      },
+      {
+       "name": "Habr: ИИ",
+       "url": "https://habr.com/ru/articles/1102936/?utm_campaign=1102936&utm_source=habrahabr&utm_medium=rss"
+      }
+     ]
+    }
+   ],
+   "generated_at": "2026-11-03T04:57:28.452679Z",
+   "generated_label": "03.11.2026 07:57"
+  },
   {
    "date": "2026-11-02",
    "intro": "Главные темы дня — резкий рост внимания к агентным инструментам, споры о доверии к облачному ИИ и инфраструктуре, а также новые примеры того, как модели уже меняют разработку, поиск знаний и работу с данными. На фоне этого заметны и тревожные сигналы: безопасность, верификация аккаунтов и зависимость от крупных провайдеров становятся не просто техническими, а организационными рисками.",
@@ -2616,108 +2718,6 @@
    ],
    "generated_at": "2026-10-05T05:26:59.086638Z",
    "generated_label": "05.10.2026 08:26"
-  },
-  {
-   "date": "2026-10-04",
-   "intro": "За последние сутки в ИИ-новостях доминировали две большие темы: безопасность и контроль над ИИ-системами, а также быстрый рост агентных и голосовых продуктов. Отдельно заметны сигналы о том, что ИИ всё глубже встраивается в рабочие процессы — от кодинга и поддержки до инфраструктуры и автоматизации решений.",
-   "stories": [
-    {
-     "title": "Экс-сотрудник OpenAI по безопасности уволился и раскритиковал культуру компании",
-     "summary": "Бывший сотрудник OpenAI по безопасности Дэвид Робинсон уволился и публично раскритиковал культуру компании, заявив, что индустрия слишком торопится и недостаточно осторожна. В его тексте, опубликованном в The Atlantic, звучит призыв ставить безопасность и внешнюю проверку выше гонки за релизами.",
-     "why": "Это важный сигнал о растущем конфликте между скоростью вывода моделей и требованиями к безопасности. Для аудитории AI Radar это индикатор того, что вопрос governance и внутренней культуры становится не менее значимым, чем сами релизы моделей.",
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
-     "tag": "безопасность",
-     "extra": [
-      {
-       "name": "TechCrunch AI",
-       "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/"
-      },
-      {
-       "name": "The Verge AI",
-       "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm"
-      },
-      {
-       "name": "The Atlantic",
-       "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/"
-      }
-     ]
-    },
-    {
-     "title": "Microsoft выпустила новые модели для голосовых агентов",
-     "summary": "Microsoft представила новую линейку MAI-моделей для голосовых агентов: MAI-Transcribe-2-Streaming для потокового распознавания речи и MAI-Voice-2.1 для синтеза голоса. Компания делает ставку на низкую задержку, поддержку множества языков и более естественное взаимодействие в реальном времени.",
-     "why": "Голосовые интерфейсы становятся одним из главных фронтов конкуренции между AI-платформами. Для разработчиков это означает более зрелую инфраструктуру для voice agents, а для рынка — ускорение перехода от чат-ботов к разговорным ассистентам.",
-     "source": "AI Digest",
-     "url": "https://ai-digest.ru/microsoft-vypustila-modeli-rechi-dlya-golosovyh-agentov-raspoznavanie-za-100-mil/",
-     "tag": "голос",
-     "extra": [
-      {
-       "name": "Microsoft AI",
-       "url": "https://microsoft.ai/news/our-first-streaming-transcription-model/"
-      },
-      {
-       "name": "Microsoft AI Blog",
-       "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/build-expressive-voice-experiences-with-new-mai-models-in-microsoft-foundry/4524637"
-      },
-      {
-       "name": "itmedia",
-       "url": "https://www.itmedia.co.jp/news/article/2610/02/2000001950/"
-      }
-     ]
-    },
-    {
-     "title": "Калифорния запретила увольнять сотрудников только по решению ИИ",
-     "summary": "В Калифорнии подписали закон, который запрещает работодателю принимать окончательное решение об увольнении или дисциплинарном взыскании только на основе ИИ. Начиная с 1 июля 2027 года автоматизированная система не сможет быть последней инстанцией без проверки человеком.",
-     "why": "Это один из самых заметных примеров того, как регуляторы ограничивают использование ИИ в HR и управлении людьми. Новость важна всем, кто внедряет AI в корпоративные процессы: отныне автоматизация решений о людях будет требовать более жёстких процедур контроля.",
-     "source": "VC: ИИ",
-     "url": "https://vc.ru/ai/3173376-zapret-uvolneniya-po-resheniyu-ii-v-kalifornii?from=rss",
-     "tag": "регулирование",
-     "extra": [
-      {
-       "name": "VC: ИИ",
-       "url": "https://vc.ru/ai/3173376-zapret-uvolneniya-po-resheniyu-ii-v-kalifornii?from=rss"
-      }
-     ]
-    },
-    {
-     "title": "Вокруг ИИ-агентов усиливается тема жёстких лимитов расходов",
-     "summary": "Появился аргумент в пользу того, чтобы hard budget caps стали стандартом для платных API и облачных сервисов, особенно на фоне роста кодящих и персональных агентов. Автор указывает, что AWS уже запустила spend limits, а Google Cloud ранее ввела похожий механизм Spend Caps.",
-     "why": "С ростом автономных агентов возрастает риск неконтролируемых расходов и побочных эффектов в облаке. Для практиков это прямой сигнал: без бюджетных ограничений агентные системы могут стать не только полезными, но и опасно дорогими.",
-     "source": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-     "tag": "агенты",
-     "extra": [
-      {
-       "name": "Simon Willison",
-       "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
-      },
-      {
-       "name": "TechCrunch AI",
-       "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/"
-      }
-     ]
-    },
-    {
-     "title": "AWS пытается снять критику вокруг дата-центров на фоне ИИ-бума",
-     "summary": "Amazon Web Services публично ответила на волну критики вокруг дата-центров и заявила, что больше не использует NDA в этой теме. Параллельно в индустрии нарастает разговор о том, что спрос со стороны ИИ уже влияет на цены памяти и потребительской электроники.",
-     "why": "Инфраструктура для ИИ всё чаще становится предметом общественного и политического давления. Для читателей это важно как признак того, что масштабирование ИИ упирается не только в модели, но и в энергетику, память и физические мощности.",
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-     "tag": "инфраструктура",
-     "extra": [
-      {
-       "name": "TechCrunch AI",
-       "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/"
-      },
-      {
-       "name": "WIRED AI",
-       "url": "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/"
-      }
-     ]
-    }
-   ],
-   "generated_at": "2026-10-04T04:42:20.351525Z",
-   "generated_label": "04.10.2026 07:42"
   }
  ]
 }
