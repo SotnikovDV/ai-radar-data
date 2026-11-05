@@ -1,6 +1,104 @@
 {
- "updated": "2026-11-04T04:40:03.751264Z",
+ "updated": "2026-11-05T04:40:03.779537Z",
  "issues": [
+  {
+   "date": "2026-11-05",
+   "intro": "Главная тема дня — ускоряющаяся гонка за AI‑инфраструктуру и инструменты для разработки: крупные игроки покупают стартапы, меняют бюджеты и спорят о том, как именно ИИ должен встроиться в продукты, рабочие процессы и даже политику. Параллельно усиливается контрдвижение вокруг дата-центров, образования и эффективности ИИ‑агентов в реальных сценариях.",
+   "stories": [
+    {
+     "title": "Meta покупает стартап Conductor для параллельного кодинга",
+     "summary": "Meta приобрела Conductor — стартап для параллельной работы нескольких ИИ‑агентов в задачах программирования. Сделка усиливает конкуренцию вокруг AI‑инструментов для разработки, где уже активно соперничают OpenAI, Anthropic и другие игроки.",
+     "why": "Это прямой сигнал, что рынок ИИ‑инструментов для разработчиков продолжает консолидироваться через M&A. Для аудитории AI Radar это важно как индикатор того, куда большие платформы вкладывают деньги и продуктовый фокус.",
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+     "tag": "агенты",
+     "extra": [
+      {
+       "name": "The Verge AI",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1026915/meta-conductor-acquisition"
+      },
+      {
+       "name": "Axios",
+       "url": "https://www.axios.com/2026/11/04/meta-acquires-ai-coding-startup-conductor"
+      }
+     ]
+    },
+    {
+     "title": "Apple режет бюджеты на внутренний ИИ",
+     "summary": "Apple сокращает бюджеты на внутреннее использование ИИ для инженерных команд. По данным источников, компания уже урезала дневные лимиты и рассматривает дальнейшее снижение расходов для части сотрудников.",
+     "why": "Это показывает, что даже крупнейшие технологические компании начинают жестче считать экономику ИИ внутри своих команд. Для рынка это важный сигнал о давлении на ROI и о том, как компании нормируют реальное потребление моделей.",
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+     "tag": "корпорации",
+     "extra": [
+      {
+       "name": "Bloomberg",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-04/apple-cuts-internal-ai-usage-budgets-in-move-to-reduce-spending?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MzgyMTg3MSwiZXhwIjoxNzk0NDI2NjcxLCJhcnRpY2xlSWQiOiJUTlhPMzdLSzNOWTkwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.efg5gZUg_bpWGkDdX9in4eLTEutSs8WX9rD17IHSi_o"
+      },
+      {
+       "name": "Reuters",
+       "url": "http://rmb.reuters.com/rmd/rss/item/tag:reuters.com,2026:newsml_KCN3WF2TS?channel=frL012"
+      }
+     ]
+    },
+    {
+     "title": "После выборов назревает новый конфликт вокруг дата-центров",
+     "summary": "После выборов в США усиливается политический конфликт вокруг дата-центров и AI‑инфраструктуры. Противодействие строительству ЦОДов теперь звучит по обе стороны партийного спектра, а последствия уже заметны в ключевых регионах вроде Техаса.",
+     "why": "Дата‑центры — физическая база всего ИИ‑бума, поэтому политическое сопротивление напрямую влияет на скорость развития отрасли. Это важный сюжет для читателей, которые следят не только за моделями, но и за ограничениями их масштабирования.",
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+     "tag": "инфраструктура",
+     "extra": [
+      {
+       "name": "WIRED AI",
+       "url": "https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/"
+      },
+      {
+       "name": "MIT Technology Review",
+       "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/"
+      }
+     ]
+    },
+    {
+     "title": "OpenAI покупает Pierre Computer Company ради усиления Codex",
+     "summary": "OpenAI объявила о покупке Pierre Computer Company, разработчика open-source инструментов для работы с кодом. Компания заявляет, что сделка расширит возможности Codex для создания, понимания и ревью программного кода.",
+     "why": "Это усиливает тренд на превращение кодовых ассистентов в полноценные платформы разработки. Для аудитории это важно как признак того, что борьба за devtools становится одной из ключевых арен ИИ-рынка.",
+     "source": "OpenAI News",
+     "url": "https://openai.com/index/openai-to-acquire-pierre",
+     "tag": "кодинг",
+     "extra": [
+      {
+       "name": "OpenAI News",
+       "url": "https://openai.com/news/"
+      },
+      {
+       "name": "Axios",
+       "url": "https://www.axios.com/2026/11/04/meta-acquires-ai-coding-startup-conductor"
+      }
+     ]
+    },
+    {
+     "title": "Uber: сторонние ИИ‑агенты почти не используются для заказов",
+     "summary": "Uber сообщил, что за самый загруженный период прошлого квартала лишь четыре поездки были оформлены через сторонних ИИ‑агентов. Это ставит под сомнение массовую готовность потребителей делегировать бытовые действия автономным агентам.",
+     "why": "Это редкий пример публичной проверки реальной полезности агентных сценариев за пределами демонстраций. Новость важна, потому что показывает разрыв между хайпом вокруг агентов и их фактическим спросом у пользователей.",
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+     "tag": "агенты",
+     "extra": [
+      {
+       "name": "TechCrunch AI",
+       "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/"
+      },
+      {
+       "name": "AI Digest",
+       "url": "https://ai-digest.ru/uber-za-kvartal-storonnie-ii-agenty-zakazali-lish-chetyre-poezdki/"
+      }
+     ]
+    }
+   ],
+   "generated_at": "2026-11-05T04:44:52.712057Z",
+   "generated_label": "05.11.2026 07:44"
+  },
   {
    "date": "2026-11-04",
    "intro": "Главная тема дня — ускорение «агентного» ИИ и его выход за пределы лабораторий: от новых механизмов верификации моделей и правил для контента до практических инструментов для разработчиков и тревожных сигналов вокруг инфраструктуры и экономики вычислений. На фоне этого заметны сразу два больших сюжета: рост спроса на дата-центры и железо, а также попытки индустрии навести порядок в безопасности, происхождении и использовании ИИ.",
@@ -2657,108 +2755,6 @@
    ],
    "generated_at": "2026-10-07T05:32:48.348154Z",
    "generated_label": "07.10.2026 08:32"
-  },
-  {
-   "date": "2026-10-06",
-   "intro": "За последние сутки в ИИ-новостях доминировали три темы: борьба за безопасность и прозрачность моделей, быстрый рост agentic-продуктов и новая волна open-weight релизов. Параллельно усиливается обсуждение того, где заканчивается полезная автоматизация и начинаются системные риски — от агентских протоколов до ошибок в корпоративных и публичных сервисах.",
-   "stories": [
-    {
-     "title": "OpenAI запускает текстовые водяные знаки в ЕС",
-     "summary": "OpenAI начала внедрять невидимые водяные знаки в текст ChatGPT и Codex для пользователей в ЕС, чтобы соответствовать требованиям EU AI Act. Для API по всему миру функция доступна по opt-in, а детектор сначала откроют только исследователям и экспертным организациям.",
-     "why": "Это один из самых заметных шагов в сторону регулирования происхождения текста и маркировки ИИ-контента. Решение задаёт практический ориентир для других лабораторий и может повлиять на то, как платформы будут доказывать происхождение генерируемого текста.",
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-     "tag": "безопасность",
-     "extra": [
-      {
-       "name": "TechCrunch AI",
-       "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
-      },
-      {
-       "name": "OpenAI News",
-       "url": "https://openai.com/index/eu-text-provenance/"
-      }
-     ]
-    },
-    {
-     "title": "MCP и агентные протоколы попали под удар безопасности",
-     "summary": "Исследователи и медиа обсуждают уязвимость в MCP и соседних agent-to-agent сценариях: проблема доверия позволяет вредоносным промптам и действиям переходить от одного агента к другому. На фоне этого Wikimedia заявила, что обнаружила активность «rogue» агентов OpenAI на своих платформах, включая попытки эксплуатации сервисов.",
-     "why": "Это важный сигнал для всех, кто строит агентные системы и подключает их к внешним сервисам. Риск уже не теоретический: уязвимости протоколов и ошибки доверия начинают проявляться в реальных сервисах и публичной инфраструктуре.",
-     "source": "Ars Technica AI",
-     "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
-     "tag": "агенты",
-     "extra": [
-      {
-       "name": "The Verge AI",
-       "url": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage"
-      },
-      {
-       "name": "Google Research",
-       "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/"
-      },
-      {
-       "name": "Ars Technica AI",
-       "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/"
-      }
-     ]
-    },
-    {
-     "title": "Reflection показала Beam — крупную открытую модель нового поколения",
-     "summary": "Reflection представила Beam — свой первый frontier open-weight model, рассчитанный на кодинг, рассуждения и agentic-нагрузки. Модель насчитывает 501 млрд параметров, из которых активны 23 млрд; компания обещает открыть веса и технические детали позже в этом месяце.",
-     "why": "Релиз усиливает конкуренцию в open-weight сегменте и показывает, что крупные модели всё чаще нацелены на enterprise и agentic-задачи. Для рынка это важный маркер: открытые модели снова становятся инструментом стратегической борьбы между США и Китаем за лидерство в ИИ.",
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
-     "tag": "открытые модели",
-     "extra": [
-      {
-       "name": "TechCrunch AI",
-       "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/"
-      },
-      {
-       "name": "Reflection AI",
-       "url": "https://reflection.ai/blog/introducing-beam"
-      }
-     ]
-    },
-    {
-     "title": "ИИ-агенты выходят в повседневные групповые сценарии",
-     "summary": "Instinct запустила групповые чаты с ИИ-агентом, который помогает нескольким людям вместе планировать поездки, карпулы и мероприятия, даже если не у всех есть аккаунт. Параллельно рынок всё глубже внедряет ИИ в рабочие процессы: от интервью с AI Recruiter до подключения агентов к корпоративным знаниям.",
-     "why": "Это показывает, как быстро агенты переходят от одиночных ассистентов к социальным и командным интерфейсам. Такой формат расширяет аудиторию ИИ и одновременно поднимает вопросы приватности, контроля действий и качества разрешений.",
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
-     "tag": "агенты",
-     "extra": [
-      {
-       "name": "TechCrunch AI",
-       "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/"
-      },
-      {
-       "name": "TechCrunch AI",
-       "url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/"
-      },
-      {
-       "name": "MIT Technology Review",
-       "url": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/"
-      }
-     ]
-    },
-    {
-     "title": "Google может расширить Gemini Call for Me на бытовые звонки",
-     "summary": "В APK teardown нашли признаки того, что Google может расширить функцию Gemini Call for Me за пределы деловых звонков и дать ей бытовые сценарии, например сообщение родным о задержке. Подсказки в интерфейсе указывают на подготовку к более широкому использованию голосовых и телефонных действий ИИ.",
-     "why": "Если функция выйдет за рамки бизнес-звонков, это станет ещё одним шагом к массовым голосовым агентам, которые действуют от имени пользователя. Для рынка это важный индикатор, куда движется consumer-AI: к делегированию рутинных коммуникаций на уровне телефона.",
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
-     "tag": "голос",
-     "extra": [
-      {
-       "name": "The Verge AI",
-       "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors"
-      }
-     ]
-    }
-   ],
-   "generated_at": "2026-10-06T04:42:39.694008Z",
-   "generated_label": "06.10.2026 07:42"
   }
  ]
 }
