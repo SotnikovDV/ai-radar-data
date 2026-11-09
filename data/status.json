@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T04:40:03.919132Z",
+ "updated": "2026-11-09T04:40:03.990694Z",
  "sources": [
   {
    "id": "openai",
@@ -7,7 +7,7 @@
    "cat": "lab",
    "site": "https://openai.com/news/",
    "ok": true,
-   "count": 85,
+   "count": 82,
    "error": null
   },
   {
@@ -240,9 +240,9 @@
    "name": "Interconnects (Nathan Lambert)",
    "cat": "analysis",
    "site": "https://www.interconnects.ai/",
-   "ok": false,
-   "count": 0,
-   "error": "ReadTimeout: The read operation timed out"
+   "ok": true,
+   "count": 7,
+   "error": null
   },
   {
    "id": "semianalysis",
@@ -313,7 +313,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/ai_newz",
    "ok": true,
-   "count": 17,
+   "count": 18,
    "error": null
   },
   {
@@ -412,7 +412,7 @@
    "cat": "telegram",
    "site": "https://t.me/petsproject",
    "ok": true,
-   "count": 18,
+   "count": 20,
    "error": null
   },
   {
