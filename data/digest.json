@@ -1,6 +1,104 @@
 {
- "updated": "2026-11-12T04:40:04.286817Z",
+ "updated": "2026-11-13T04:40:04.336537Z",
  "issues": [
+  {
+   "date": "2026-11-13",
+   "intro": "Главная тема дня — ускорение внедрения ИИ в повседневные продукты: от встреч и поиска до автономных рабочих сценариев. Параллельно усиливается регуляторный и корпоративный шум вокруг Nvidia, а в экосистеме Google выходит новый быстрый режим Gemini 4 Hydrogen, который сразу попадает в Search и другие сервисы.",
+   "stories": [
+    {
+     "title": "Claude Meetings превращает созвоны в рабочий процесс",
+     "summary": "Anthropic запустила Claude Meetings в бете: ассистент может подключаться к видеозвонку как видимый участник, слушать обсуждение и прямо во время встречи собирать заметки, документы, доски и план действий. На старте функция доступна только для Google Meet и для тарифов Team и Enterprise; также предусмотрены жёсткие ограничения по безопасности и хранению данных.",
+     "why": "Это заметный шаг от чат-бота к «участнику команды», который не просто отвечает, а помогает завершать работу прямо в процессе встречи. Для рынка ИИ это важный маркер того, как быстро агенты входят в корпоративные сценарии.",
+     "source": "Технологический Суверенитет",
+     "url": "https://claude.com/resources/articles/claude-meetings",
+     "tag": "агенты",
+     "extra": [
+      {
+       "name": "Reuters",
+       "url": "https://www.reuters.com/technology/anthropic-brings-claude-google-meet-tackle-tasks-live-2026-11-10/"
+      },
+      {
+       "name": "Claude Help Center",
+       "url": "https://support.claude.com/en/articles/18325154-use-claude-meetings"
+      }
+     ]
+    },
+    {
+     "title": "Google вывела Gemini 4 Hydrogen в Search и приложения",
+     "summary": "Google выпустила Gemini 4 Hydrogen — более быструю и доступную модель семейства Gemini 4, которую сразу встроили в Google Search. Компания говорит, что модель лучше понимает сложные запросы, многочастные вопросы и опечатки, а также даёт более визуальные и точные ответы.",
+     "why": "Это один из самых сильных сигналов о том, что фронтирные модели всё глубже встраиваются в массовые продукты. Для аудитории ИИ важно и то, что Google явно делает ставку на более дешёвый и быстрый слой модели для повседневных задач.",
+     "source": "Google AI Blog",
+     "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+     "tag": "модели",
+     "extra": [
+      {
+       "name": "Google DeepMind",
+       "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/"
+      },
+      {
+       "name": "Google AI Blog",
+       "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/"
+      }
+     ]
+    },
+    {
+     "title": "Google Search обновили на базе Gemini 4 Hydrogen",
+     "summary": "Google Search получил крупное обновление на базе Gemini 4 Hydrogen: AI Mode лучше обрабатывает сложные запросы и выдаёт более полезные ссылки и визуальные ответы. Обновление уже распространяется глобально и связано с запуском новой модели сразу в нескольких продуктах Google.",
+     "why": "Поиск остаётся одним из главных полей битвы для ИИ-компаний, и здесь важны не только качество ответов, но и интеграция в привычные сценарии пользователей. Это напрямую влияет на то, как люди будут искать информацию и взаимодействовать с контентом в будущем.",
+     "source": "The Verge AI",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+     "tag": "поиск",
+     "extra": [
+      {
+       "name": "TechCrunch AI",
+       "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/"
+      },
+      {
+       "name": "The Verge AI",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen"
+      }
+     ]
+    },
+    {
+     "title": "Nvidia и Хуанг под давлением Конгресса США",
+     "summary": "После отставки Дженсена Хуанга с поста CEO Nvidia вокруг компании усилилось давление со стороны американских законодателей. Его уже вызывают для показаний в Конгресс на фоне расследований, связанных с экспортом чипов, безопасностью и возможными контактами, вызывающими вопросы у властей.",
+     "why": "Nvidia остаётся ключевым игроком всей ИИ-инфраструктуры, поэтому любой кризис вокруг её руководства влияет на рынок шире, чем обычный корпоративный скандал. Для аудитории это ещё и сигнал о том, что темы чипов, экспорта и нацбезопасности всё сильнее связаны с ИИ-гонкой.",
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+     "tag": "Nvidia",
+     "extra": [
+      {
+       "name": "CNN",
+       "url": "https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout"
+      },
+      {
+       "name": "NYT",
+       "url": "https://www.nytimes.com/2026/11/12/business/jensen-huang-howard-lutnick-testify-capitol-hill.html"
+      },
+      {
+       "name": "TechCrunch AI",
+       "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/"
+      }
+     ]
+    },
+    {
+     "title": "Amplitude ускоряет выпуск фич с помощью ИИ-агента Wave",
+     "summary": "Amplitude рассказала, что использует модели OpenAI для своего агентного продукта Wave, который помогает находить, что строить, запускать изменения через кодинг-агентов и измерять эффект. В кейсе утверждается, что компания может выпускать улучшения продукта за 1–2 дня.",
+     "why": "Это практический пример того, как ИИ уже встроен в продуктовые и инженерные циклы, а не только в демо и эксперименты. Для читателей важно видеть, где агенты реально экономят время и меняют процесс разработки.",
+     "source": "OpenAI News",
+     "url": "https://openai.com/business/customer-stories/amplitude",
+     "tag": "продукты",
+     "extra": [
+      {
+       "name": "OpenAI News",
+       "url": "https://openai.com/business/customer-stories/amplitude"
+      }
+     ]
+    }
+   ],
+   "generated_at": "2026-11-13T04:44:23.613252Z",
+   "generated_label": "13.11.2026 07:44"
+  },
   {
    "date": "2026-11-12",
    "intro": "День в ИИ-новостях прошёл под знаком корпоративных перестановок, инфраструктурной гонки и новых продуктовых релизов. На фоне шума вокруг Nvidia и заметного роста выручки OpenAI внимание также привлекли запуск Gemini Decisions API и формальная верификация кода с помощью ИИ.",
@@ -2617,108 +2715,6 @@
    ],
    "generated_at": "2026-10-15T06:21:52.184391Z",
    "generated_label": "15.10.2026 09:21"
-  },
-  {
-   "date": "2026-10-14",
-   "intro": "Главная тема дня — ускоряющееся внедрение ИИ в реальные рабочие процессы: от защиты пользователей и новых моделей Google до того, как сами ИИ-системы меняют разработку, безопасность и инфраструктуру компаний. Параллельно всё заметнее сдвиг к локальным и агентным сценариям, где ИИ работает ближе к устройству, кода пишет больше, а риски и требования к безопасности растут.",
-   "stories": [
-    {
-     "title": "Google и Сингапур запустили локальный ИИ для защиты от scam-атак",
-     "summary": "Google DeepMind и GovTech Singapore представили on-device AI-инструмент для защиты пользователей от мошеннических разговоров в личных чатах. Модель Gemma работает прямо на устройстве, что позволяет перехватывать подозрительные сценарии без отправки данных в облако.",
-     "why": "Это важный пример того, как ИИ переходит из демонстраций в прикладную защиту пользователей. Для аудитории AI Radar это сигнал: on-device модели становятся не только удобнее, но и безопаснее по дизайну.",
-     "source": "Google DeepMind",
-     "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-     "tag": "безопасность",
-     "extra": [
-      {
-       "name": "Google DeepMind",
-       "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
-      },
-      {
-       "name": "Google DeepMind",
-       "url": "https://deepmind.google/models/model-cards/gemini-4-argon/"
-      }
-     ]
-    },
-    {
-     "title": "Google вывела Gemini 4 Argon в публичный доступ",
-     "summary": "Google начала публичный rollout Gemini 4 Argon: модель стала доступна в API, в AI Studio и для подписчиков Gemini/Ultra, а стартовая цена объявлена на уровне $2 за миллион входных токенов и $10 за миллион выходных. Одновременно DeepMind выпустила материалы по безопасности и ответственному развитию модели.",
-     "why": "Это один из главных релизов дня: новая фронтирная модель влияет и на рынок API, и на конкуренцию среди лабораторий. Для читателей важно и то, что Google сразу сопровождает запуск отдельным safety-пакетом.",
-     "source": "Google DeepMind",
-     "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-     "tag": "модели",
-     "extra": [
-      {
-       "name": "Google DeepMind",
-       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
-      },
-      {
-       "name": "Google DeepMind",
-       "url": "https://deepmind.google/models/model-cards/gemini-4-argon/"
-      }
-     ]
-    },
-    {
-     "title": "Скандал вокруг OpenAI: сотрудник и скрытый recording device",
-     "summary": "OpenAI employee was accused of using a chatbot to help prepare a covert recording device at the office, а позже по делу последовали арест и официальные обвинения. История разворачивается на фоне заявлений компании о том, что она не видит признаков утечки model weights, исходного кода или данных клиентов.",
-     "why": "Это редкий случай, где ИИ напрямую пересекается с внутренней безопасностью компании и корпоративным риском. Тема особенно важна, потому что показывает: угрозы могут исходить не только извне, но и изнутри экосистемы ИИ.",
-     "source": "WIRED AI",
-     "url": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
-     "tag": "безопасность",
-     "extra": [
-      {
-       "name": "The Verge AI",
-       "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device"
-      },
-      {
-       "name": "Reuters",
-       "url": "https://www.reuters.com/world/us/fbi-arrests-former-openai-employee-planting-listening-device-2026-10-13/"
-      },
-      {
-       "name": "US Department of Justice",
-       "url": "https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai"
-      }
-     ]
-    },
-    {
-     "title": "Anthropic отказалась от Git ради масштабов ИИ-разработки",
-     "summary": "Anthropic рассказала, что из-за резкого роста числа AI-generated изменений в коде построила собственную систему контроля версий Scion и полностью перевела на неё монорепозиторий. Команда из семи человек за пять месяцев ушла от Git, а вместе с этим обновила и процесс code review.",
-     "why": "Это один из самых показательных признаков того, как агентная разработка ломает привычную инженерную инфраструктуру. Для рынка это маркер: ИИ уже меняет не только продукты, но и базовые инструменты производства ПО.",
-     "source": "Simon Willison",
-     "url": "https://www.anthropic.com/engineering/redesigning-source-control",
-     "tag": "разработка",
-     "extra": [
-      {
-       "name": "Simon Willison",
-       "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/"
-      },
-      {
-       "name": "Anthropic",
-       "url": "https://www.anthropic.com/engineering/redesigning-source-control"
-      }
-     ]
-    },
-    {
-     "title": "Cerebras прогнозирует персонального ИИ-ассистента у каждого дома",
-     "summary": "Cerebras CEO Andrew Feldman заявил, что мир близок к эпохе, когда у каждого дома будет персональный ИИ-ассистент, работающий частично локально и частично в облаке. Он представил это как массовый потребительский сценарий, а не нишевую технологию для энтузиастов.",
-     "why": "Это хорошо отражает общий тренд дня: ИИ быстро переходит в бытовые и постоянные сценарии использования. Для аудитории это важно как сигнал о следующем этапе рынка — от чатов и демо к персональным агентам в повседневной жизни.",
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
-     "tag": "агенты",
-     "extra": [
-      {
-       "name": "TechCrunch AI",
-       "url": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/"
-      },
-      {
-       "name": "TechCrunch AI",
-       "url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/"
-      }
-     ]
-    }
-   ],
-   "generated_at": "2026-10-14T04:43:18.123652Z",
-   "generated_label": "14.10.2026 07:43"
   }
  ]
 }
