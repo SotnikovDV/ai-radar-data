@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T04:40:04.009607Z",
+ "updated": "2026-11-18T04:40:04.182303Z",
  "sources": [
   {
    "id": "openai",
@@ -7,7 +7,7 @@
    "cat": "lab",
    "site": "https://openai.com/news/",
    "ok": true,
-   "count": 96,
+   "count": 104,
    "error": null
   },
   {
@@ -34,7 +34,7 @@
    "cat": "lab",
    "site": "https://blog.google/technology/ai/",
    "ok": true,
-   "count": 12,
+   "count": 13,
    "error": null
   },
   {
@@ -43,7 +43,7 @@
    "cat": "lab",
    "site": "https://news.microsoft.com/source/topics/ai/",
    "ok": true,
-   "count": 2,
+   "count": 3,
    "error": null
   },
   {
@@ -87,9 +87,9 @@
    "name": "AWS Machine Learning",
    "cat": "lab",
    "site": "https://aws.amazon.com/blogs/machine-learning/",
-   "ok": false,
-   "count": 0,
-   "error": "ConnectTimeout: _ssl.c:993: The handshake operation timed out"
+   "ok": true,
+   "count": 20,
+   "error": null
   },
   {
    "id": "mistral",
@@ -241,7 +241,7 @@
    "cat": "analysis",
    "site": "https://www.interconnects.ai/",
    "ok": true,
-   "count": 7,
+   "count": 6,
    "error": null
   },
   {
@@ -259,7 +259,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.AI/recent",
    "ok": true,
-   "count": 276,
+   "count": 0,
    "error": null
   },
   {
@@ -268,7 +268,7 @@
    "cat": "analysis",
    "site": "https://arxiv.org/list/cs.LG/recent",
    "ok": true,
-   "count": 291,
+   "count": 0,
    "error": null
   },
   {
@@ -313,7 +313,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/ai_newz",
    "ok": true,
-   "count": 20,
+   "count": 16,
    "error": null
   },
   {
@@ -322,7 +322,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/data_secrets",
    "ok": true,
-   "count": 17,
+   "count": 15,
    "error": null
   },
   {
@@ -340,7 +340,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/seeallochnaya",
    "ok": true,
-   "count": 18,
+   "count": 14,
    "error": null
   },
   {
@@ -376,7 +376,7 @@
    "cat": "telegram",
    "site": "https://t.me/s/tsingular",
    "ok": true,
-   "count": 16,
+   "count": 17,
    "error": null
   },
   {
@@ -412,7 +412,7 @@
    "cat": "telegram",
    "site": "https://t.me/petsproject",
    "ok": true,
-   "count": 20,
+   "count": 19,
    "error": null
   },
   {
