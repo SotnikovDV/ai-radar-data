@@ -1,6 +1,104 @@
 {
- "updated": "2026-11-23T04:40:04.295672Z",
+ "updated": "2026-11-24T04:40:04.354433Z",
  "issues": [
+  {
+   "date": "2026-11-24",
+   "intro": "Главная тема дня — ускорение перехода ИИ из «моделей» в прикладные системы: от агентного код-ревью и защиты инфраструктуры до более глубоких архитектур и новых способов управления веб- и поисковым трафиком. На этом фоне заметны и несколько крупных корпоративных сюжетов, включая возвращение Дженсена Хуанга в Nvidia и запуск новых продуктов вокруг ИИ-инфраструктуры.",
+   "stories": [
+    {
+     "title": "OpenAI и Cisco представили Shirudo для защиты Linux-систем во время патчей",
+     "summary": "OpenAI и Cisco представили Shirudo — open-source runtime для Linux, который помогает защищать работающие системы во время установки патчей и без перезапуска. Проект использует eBPF и позиционируется как средство защиты инфраструктуры в реальном времени.",
+     "why": "Это важный сигнал, что ИИ-сфера выходит за рамки моделей и добирается до базовой инфраструктурной безопасности. Для аудитории AI Radar это значит, что следующий этап конкуренции идет не только за качество моделей, но и за то, кто лучше встроит ИИ в защиту продакшена.",
+     "source": "OpenAI News",
+     "url": "https://openai.com/index/introducing-shirudo",
+     "tag": "безопасность",
+     "extra": [
+      {
+       "name": "OpenAI и Cisco запускают Shirudo",
+       "url": "https://www.openai.com/index/introducing-shirudo/"
+      },
+      {
+       "name": "Cisco и OpenAI: Shirudo",
+       "url": "https://investor.cisco.com/news/news-details/2026/Cisco-and-OpenAI-Launch-Shirudo-A-New-Project-to-Safeguard-Agentic-AI/default.aspx"
+      }
+     ]
+    },
+    {
+     "title": "Anthropic выпустила Claude Ship для автономного ревью и апрува кода",
+     "summary": "Anthropic запустила Claude Ship — набор инструментов, который позволяет ИИ-агентам ревьюить код, исправлять его и утверждать изменения по заданным политикам команды. В пакет входят этапы Code Review, PR Steward и Claude Approvals, чтобы частично автоматизировать путь pull request до мержа.",
+     "why": "Это один из самых практичных шагов к массовому внедрению coding agents в команды разработки. Для рынка это означает, что ИИ все глубже входит в CI/CD и начинает влиять на скорость релизов и процессы контроля качества.",
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+     "tag": "агенты",
+     "extra": [
+      {
+       "name": "Claude Ship — официальный анонс Anthropic",
+       "url": "https://claude.com/resources/articles/introducing-claude-ship"
+      },
+      {
+       "name": "ZDNET: как попробовать Claude Ship",
+       "url": "https://www.zdnet.com/innovation/claude-ship-code-how-to-try/"
+      }
+     ]
+    },
+    {
+     "title": "Nvidia вернула Дженсена Хуанга на пост CEO",
+     "summary": "Совет директоров Nvidia единогласно восстановил Дженсена Хуанга на постах президента, CEO и члена совета директоров. Новость вызвала резкую реакцию рынка, а вокруг решения продолжает идти обсуждение из-за политического и корпоративного контекста.",
+     "why": "Nvidia остается ключевым игроком всей ИИ-экономики, поэтому кадровые решения компании моментально отражаются на рынке и на цепочке поставок ИИ-чипов. Для читателей это важный сигнал о стабильности или нестабильности одного из главных центров силы в индустрии.",
+     "source": "TechCrunch AI",
+     "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
+     "tag": "Nvidia",
+     "extra": [
+      {
+       "name": "Nvidia пресс-релиз о возвращении Хуанга",
+       "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/"
+      },
+      {
+       "name": "BBC: возвращение Хуанга в Nvidia",
+       "url": "https://www.bbc.com/news/live/crd61y5dwqgpt?post=asset:1b13d8db-a491-498e-ae6b-43c332c31e2d"
+      }
+     ]
+    },
+    {
+     "title": "Google показала архитектуру, ускоряющую обучение трансформеров до 5 раз",
+     "summary": "Google опубликовала исследование DeepCrossAttention, которое улучшает residual connections в трансформерах и позволяет ускорять обучение в отдельных конфигурациях до 5 раз. Идея в том, что токены могут избирательно обращаться к представлениям предыдущих слоев, а не просто складывать их по стандартной схеме.",
+     "why": "Такие архитектурные улучшения напрямую влияют на стоимость обучения и качество будущих моделей. Это важно для всех, кто следит за тем, куда движется индустрия: большее качество при меньших вычислениях меняет экономику ИИ.",
+     "source": "Google Research",
+     "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+     "tag": "модели",
+     "extra": [
+      {
+       "name": "Google Research: Supercharging transformer residual connections",
+       "url": "https://research.google/blog/supercharging-transformer-residual-connections/"
+      },
+      {
+       "name": "Google DeepMind: faster quantum algorithms with agents",
+       "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+      }
+     ]
+    },
+    {
+     "title": "Google сделала Search AI Mode глубже персонализированным",
+     "summary": "Google расширила Personal Intelligence в Search AI Mode, подключив к ответам данные из Drive, Wallet, Gmail, Photos и Calendar. Поисковик становится более персональным за счет собственной экосистемы пользователя, а ответы — более контекстными.",
+     "why": "Это усиливает тренд на переход от универсального поиска к персональным ИИ-ассистентам, которые опираются на личные данные пользователя. Для рынка это означает новый уровень конкуренции за контекст и приватность.",
+     "source": "Google AI Blog",
+     "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+     "tag": "поиск",
+     "extra": [
+      {
+       "name": "Google AI Blog: Personalized Search",
+       "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"
+      },
+      {
+       "name": "TechCrunch: AI Mode taps Drive and Wallet",
+       "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/"
+      }
+     ]
+    }
+   ],
+   "generated_at": "2026-11-24T05:06:05.334467Z",
+   "generated_label": "24.11.2026 08:06"
+  },
   {
    "date": "2026-11-23",
    "intro": "Главная тема суток — ускорение конкуренции вокруг ИИ-платформ: крупные игроки одновременно усиливают модели, расширяют агентные сценарии и пытаются удержать контроль над рисками, безопасностью и инфраструктурой. На этом фоне заметны сразу три линии: крупные корпоративные ставки на Anthropic, релиз открытых весов Tencent Hy4 и практические проблемы агентных систем — от контекстных обрезок до ограничений по правам и стабильности.",
@@ -2764,100 +2862,6 @@
    ],
    "generated_at": "2026-10-26T04:58:06.563001Z",
    "generated_label": "26.10.2026 07:58"
-  },
-  {
-   "date": "2026-10-25",
-   "intro": "Главная тема дня — ускорение практической и прикладной ИИ-волны: от терминальных и корпоративных агентов до новых правил для генерации контента и мер безопасности. Одновременно заметно, что рынок и исследовательские команды все чаще фокусируются не только на возможностях моделей, но и на контроле, верификации и ограничении рисков.",
-   "stories": [
-    {
-     "title": "Oh‑My‑Pi: терминальный ИИ-агент для повседневной работы",
-     "summary": "В статье разбирают Oh‑My‑Pi — консольного ИИ-агента для работы в терминале, который объединяет несколько инструментов и сценариев взаимодействия. Автор показывает, чем OMP отличается от более известных решений и какие задачи он может закрывать в повседневной разработке.",
-     "why": "Терминальные агенты быстро становятся рабочим стандартом для разработчиков и админов. Такие инструменты показывают, как ИИ переходит от чата к реальному выполнению задач в среде пользователя.",
-     "source": "Хабр: ИИ",
-     "url": "https://habr.com/ru/articles/1098980/?utm_campaign=1098980&utm_source=habrahabr&utm_medium=rss",
-     "tag": "агенты",
-     "extra": [
-      {
-       "name": "Хабр: ИИ",
-       "url": "https://habr.com/ru/articles/1098980/?utm_campaign=1098980&utm_source=habrahabr&utm_medium=rss"
-      }
-     ]
-    },
-    {
-     "title": "ИИ-агенты выходят в бизнес-процессы и инфраструктуру",
-     "summary": "В одном из материалов описано, как в PIM-платформу встроили ИИ-агента, который сам ищет информацию в интернете и создает карточки товаров для маркетплейсов. В другом — как открытую Kafka-панель дополнили MCP-шлюзом, чтобы LLM могла читать кластер и предлагать изменения, не имея прав на прямое выполнение действий.",
-     "why": "Это хороший срез того, как компании начинают доверять агентам не только советы, но и операционные действия. Для аудитории ИИ это сигнал о росте спроса на безопасные агентные интеграции и контролируемые права доступа.",
-     "source": "Хабр: ИИ",
-     "url": "https://habr.com/ru/articles/1098978/?utm_campaign=1098978&utm_source=habrahabr&utm_medium=rss",
-     "tag": "агенты",
-     "extra": [
-      {
-       "name": "Хабр: ИИ",
-       "url": "https://habr.com/ru/articles/1098978/?utm_campaign=1098978&utm_source=habrahabr&utm_medium=rss"
-      },
-      {
-       "name": "Хабр: ИИ",
-       "url": "https://habr.com/ru/articles/1098910/?utm_campaign=1098910&utm_source=habrahabr&utm_medium=rss"
-      }
-     ]
-    },
-    {
-     "title": "Пенсильвания ввела обязательную маркировку AI-рекламы",
-     "summary": "Пенсильвания приняла закон, который требует помечать рекламу, если она была существенно изменена или сгенерирована ИИ. Правило распространяется на изображения, видео, аудио и текст и требует, чтобы маркировка была заметной и в том же формате, что и сама реклама.",
-     "why": "Это один из конкретных прецедентов регулирования генеративного ИИ на уровне штата в США. Для рынка это означает рост требований к прозрачности и возможные аналогичные инициативы в других юрисдикциях.",
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
-     "tag": "регулирование",
-     "extra": [
-      {
-       "name": "The Verge AI",
-       "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
-      },
-      {
-       "name": "LegalTech Digest",
-       "url": "https://www.legaltechdigest.com/news/pennsylvania-law-mandates-clear-labels-on-ai-generated-ads"
-      },
-      {
-       "name": "WebProNews",
-       "url": "https://www.webpronews.com/pennsylvania-ai-deceptive-advertising-act-disclosure-dec-21/"
-      }
-     ]
-    },
-    {
-     "title": "Blue Planet III делает ставку на «неидеальные» кадры",
-     "summary": "BBC пытается подчеркнуть подлинность Blue Planet III, оставляя в кадре шероховатости и менее идеальные фрагменты. Идея в том, чтобы не создавать слишком «полированный» вид, который сегодня легко спутать с генеративным ИИ или цифровой подделкой.",
-     "why": "Это показатель того, как ИИ меняет стандарты доверия к медиа и визуальному контенту. Авторам и платформам теперь приходится доказывать подлинность не только словами, но и стилем изображения.",
-     "source": "The Verge AI",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
-     "tag": "медиа",
-     "extra": [
-      {
-       "name": "The Verge AI",
-       "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai"
-      }
-     ]
-    },
-    {
-     "title": "ИИ-«кладбище»: проекты, которые не взлетели",
-     "summary": "TechCrunch собрал список ИИ-проектов и стартапов, которые не оправдали ожиданий, задержались или фактически сошли с дистанции. В подборке упоминаются и крупные имена, включая затянувшиеся продукты и громкие, но проблемные запуски.",
-     "why": "На фоне ажиотажа вокруг ИИ полезно видеть не только победителей, но и провалы. Это помогает трезво оценивать, какие продукты действительно жизнеспособны, а какие не выдерживают проверки временем и ожиданиями.",
-     "source": "TechCrunch AI",
-     "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-     "tag": "рынок",
-     "extra": [
-      {
-       "name": "TechCrunch AI",
-       "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
-      },
-      {
-       "name": "WIRED AI",
-       "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/"
-      }
-     ]
-    }
-   ],
-   "generated_at": "2026-10-25T04:42:09.217265Z",
-   "generated_label": "25.10.2026 07:42"
   }
  ]
 }
